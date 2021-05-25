@@ -1,5 +1,5 @@
 # TG-Plus for JP_109a<BR>
-![](logo90.png)<BR>
+![](logo90.png) <BR>
 This is a tutorial to install and use the enhanced MOD for javplayer_109a.<BR>
 This MOD was created by the Discord community kmkii#8701.<BR>
 Just for learning and communication purposes only,Do not use it for any commercial purposes.<BR>
@@ -108,4 +108,4 @@ https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
 ![](directory.png)
 
 #### I state this mod is completely free , do not use it for any commercial purposes, pretend to be an author for sale more shameful.<BR>
-
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
