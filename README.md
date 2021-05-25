@@ -23,7 +23,7 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 
 ## Config file: 
 mod.ini, veai.ini (located in javplayer_109a/TG directory)<BR>
-## Parameters:
+## Usage:
   Function:scale:model-name.<BR>
 ## Function:
   a. tecogan esrgan tve. e.g., m1:tecogan:4:TG-AF1 , m2:esrgan:2:esrgan-2x_SHARP . <BR>
