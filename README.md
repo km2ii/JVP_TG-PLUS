@@ -53,28 +53,33 @@ mod.ini, veai.ini (located in javplayer_109a/TG directory)<BR>
 
   1. "mod.ini" :<BR>
 ```
-  TG-PLUS
-  M1:tecogan:4:TG-STD         # tecogan TG-STD
-  M2:denoise                  # denoise
-  M3:tecogan:4:TG-AF1         # TG-AF1 used in se-mode.
-  M4:denoise                  # denoise
-  M5:tve:4:alq                # tve enhanced, res:1280 will downscale first
-  res:1280                    # Limit the resolution of the output images.
-  v1.8                        # Use the command line of tve 1.8
+TG-PLUS
+# This is a standard profile
+# Note the TG-PLUS line cannot be removed.
+M1:tecogan:4:TG-STD         # Use tecogan TG-STD model
+M2:denoise                  # denoise
+M3:tecogan:4:SE-4X          # Use SE-4X model for SE-enhance.  
+M4:denoise                  # denoise  
+M5:tve:4:ahq                # tve enhanced, 4x, use ahq model.
+
+res:1920                    # Limit max resolution to 1920.  
+v1.9                        # Use the command line of tve 1.9
 ```
   2. another: "mod.ini":<BR>
 ```
   TG-PLUS
+  # This is an example of functional demo that just show the custom command line usage.
+  # Note the TG-PLUS line cannot be removed.
   m1:esrgan:2:esrgan-2x_SHARP   # esrgan-2x_SHARP is a pth2ncnn.exe conversion model, model name case consistency.
   m2:denoise                    # denoise
   m3:tecogan::TG-AF1            # scale_factor is empty, :: scale is null use default 4, and TG-AF1 is used in se-mode.
   m4:denoise
   m5:denoise                    # m4,m5 If the noise is too serious, you can reduce the noise several times like this.
-  m6:esrgan:2:                  # esrgan model name is empty, 2x model will be used
-  m7:downscale:2                # reduce the input directory by 2 times 
-  m8:tve:4:thd                  #tve enhanced, but affected by res:960 will downscale first
-  res:960                       #Limit the resolution of the output images.
-  v1.9                          #Use the command line of tve 1.9
+  m6:esrgan:2:                  # esrgan model name is empty, model name is null,so 2x model will be used
+  m7:downscale:1.5              # Reduce the images in the input directory by 1.5 times.
+  m8:tve:2:thd                  # tve enhanced, 2x,use thd model, and affected by res:960 will downscale first
+  res:960                       # Limit max output resolution to 960.
+  v1.9                          # Use the command line of tve 1.9
 ```
   4. python script extensions are supported, will be useful. Extend your own functionality and implement your own ideas.<BR>
     You can call python script. e.g., m1:mPlus\call-realsr.py. (checkin TGMAIN\mplus)  . <BR>
