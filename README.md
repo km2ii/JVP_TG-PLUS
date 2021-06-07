@@ -22,7 +22,10 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
   Basically, the good will be better, the bad will be worse.<BR>
 
 ## Config file: 
-mod.ini, veai.ini (located in javplayer_109a/TG directory)<BR>
+mod.ini    #TG-PLUS mplus command line config file.<BR>
+veai.ini    #veai custom dictionary file.<BR>
+(located in javplayer_109a/TG directory)
+
 ## Usage:
   Function:scale:model-name.<BR>
 ## Function:
