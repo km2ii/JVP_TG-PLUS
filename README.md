@@ -1,6 +1,6 @@
 # TG-Plus for JP_109a<BR>
 ![](logo90.png) <BR>
-This is a tutorial to install and use the enhanced MOD for javplayer_109a.<BR>
+This is a tutorial to install and use the enhanced MOD for javplayer_109a,enhance the effect after removing mosaic.<BR>
 This MOD was created by the Discord community kmkii#8701.<BR>
 Just for learning and communication purposes only,Do not use it for any commercial purposes.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
@@ -50,22 +50,21 @@ mod.ini, veai.ini (located in javplayer_109a/TG directory)<BR>
   You can use mplus mode to custom execution.<BR>
   ! can be customized to order and model.<BR>
   ! model-name must be case sensitive.<BR>
-
-  1. "mod.ini" :<BR>
+  #### Example of mod.ini<BR>
+  ! #The first line TG-PLUS is the enhanced mode flag, modify it to TG to turn off and ignore all command lines.<BR>
 ```
-TG-PLUS
-# This is a standard profile
-# Note the TG-PLUS line cannot be removed.
-M1:tecogan:4:TG-STD         # Use tecogan TG-STD model
-M2:denoise                  # denoise
-M3:tecogan:4:SE-4X          # Use SE-4X model for SE-enhance.  
-M4:denoise                  # denoise  
-M5:tve:4:ahq                # tve enhanced, 4x, use ahq model.
+  TG-PLUS
+  # This is a standard profile
+  # Note the TG-PLUS line cannot be removed.
+  M1:tecogan:4:TG-STD         # Use tecogan TG-STD model
+  M2:denoise                  # denoise
+  M3:tecogan:4:SE-4X          # Use SE-4X model for SE-enhance.  
+  M4:denoise                  # denoise  
+  M5:tve:4:ahq                # tve enhanced, 4x, use ahq model.
 
-res:1920                    # Limit max resolution to 1920.  
-v1.9                        # Use the command line of tve 1.9
+  res:1920                    # Limit max resolution to 1920.  
+  v1.9                        # Use the command line of tve 1.9
 ```
-  2. another: "mod.ini":<BR>
 ```
   TG-PLUS
   # This is an example of functional demo that just show the custom command line usage.
