@@ -1,5 +1,5 @@
 # TG-Plus for JP_109a<BR>
-![](logo90.png) <BR>
+![](logo240.png) <BR>
 This is a tutorial to install and use the enhanced MOD for javplayer_109a,enhance the effect after removing mosaic.<BR>
 This MOD was created by the Discord community kmkii#8701.<BR>
 Just for learning and communication purposes only,Do not use it for any commercial purposes.<BR>
@@ -33,7 +33,7 @@ veai.ini    #veai custom dictionary file.<BR>
   (The scale should be consistent with the model e.g., tecogan:2:SE-2X,TVE model can set to 2,3,4,6 e.g., tve:6:ahq)<BR>
   b. denoise, no parameters.  e.g., m2:denoise .   <BR>
   (Processing image noise, occupy cpu memory) <BR>
-  c. downscale. e.g.,downscale:3.5 .<BR>
+  c. downscale. e.g.,downscale:2 .<BR>
   (you can choose to reduce the ratio, speedup and Avoid OOM.)<BR>
   d.res. e.g., res:1280 .<BR>
   (images will be reduced first, Limit maximum output to 1280.)<BR>
@@ -78,7 +78,7 @@ veai.ini    #veai custom dictionary file.<BR>
   m4:denoise
   m5:denoise                    # m4,m5 If the noise is too serious, you can reduce the noise several times like this.
   m6:esrgan:2:                  # esrgan model name is empty, model name is null,so 2x model will be used
-  m7:downscale:1.5              # Reduce the images in the input directory by 1.5 times.
+  m7:downscale:2              # Reduce the images in the input directory by 2 times.
   m8:tve:2:thd                  # tve enhanced, 2x,use thd model, and affected by res:960 will downscale first
   res:960                       # Limit max output resolution to 960.
   v1.9                          # Use the command line of tve 1.9
@@ -88,7 +88,7 @@ veai.ini    #veai custom dictionary file.<BR>
     the pass the arguments: -i inputdir -o ouputdir -m model -s sacle -se_mode se_mode<BR>
 
 ## Packs: (unrar password: km)<BR>
-1.TG-Plus for 3000 series.<BR>
+1.TG-Plus Packs. (support 3000 series)<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=24596&original=1<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=24597&original=1<BR>
 2.runGan_veai_custom_patch<BR>
@@ -100,6 +100,8 @@ https://thup.work/uploader/?mode=dl&id=25181&original=1<BR>
 https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 5.Javplayer_watermark_patch 102 - 109a<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
+6.TG-Plus Configuration Tool (0612)
+https://thup.work/uploader/?mode=dl&id=25949&original=1
 
 ## Installation Instructions: <BR>
 1.install Topaz Video Enhance AI,copy "X:\Program Files\Topaz Labs LLC\Topaz Video Enhance AI" <BR>
@@ -111,8 +113,10 @@ https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
 6.download Javplayer_watermark_patch,copy xxx\level0 to JavPlayer_Data.<BR>
 7.download runGan_veai_custom_patch,Overwrite the source files in the tgmain directory, backup first.<BR>
 8.put mod.ini into  javplayer_109a TG folder.<BR>
+9.download TG-Plus Configuration Tool,unzip the file to javplayer_109a main folder.
 
 ![](directory.png)
+![](ConfigTools.jpg)
 
 #### I state this mod is completely free , do not use it for any commercial purposes, pretend to be an author for sale more shameful.<BR>
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
