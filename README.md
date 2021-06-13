@@ -1,6 +1,6 @@
 # TG-Plus for JP_109a<BR>
 ![](logo240.png) <BR>
-This is a tutorial to install and use the enhanced MOD for javplayer_109a,enhance the effect after removing mosaic.<BR>
+This is a Tutorial to install and use the enhanced MOD for javplayer_109a, enhance the effect after removing mosaic.<BR>
 This MOD was created by the Discord community kmkii#8701.<BR>
 Just for learning and communication purposes only,Do not use it for any commercial purposes.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
@@ -15,7 +15,7 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 6.Support esrgan model.<BR>
 7.Support mPlus custom command mode.<BR>
 8.Support 3000 series card (Requires cuda11, cudnn8.0.5 environment)<BR>
-9.python script extensions are supported<BR>
+9.Python script extensions supported<BR>
 
 ## Note:<BR>
   This Mod base on TG-models, No matter SE-mode or TVE-mode, improved few. <BR>
@@ -78,7 +78,7 @@ veai.ini    #veai custom dictionary file.<BR>
   m4:denoise
   m5:denoise                    # m4,m5 If the noise is too serious, you can reduce the noise several times like this.
   m6:esrgan:2:                  # esrgan model name is empty, model name is null,so 2x model will be used
-  m7:downscale:2              # Reduce the images in the input directory by 2 times.
+  m7:downscale:2                # Reduce the images in the input directory by 2 times.
   m8:tve:2:thd                  # tve enhanced, 2x,use thd model, and affected by res:960 will downscale first
   res:960                       # Limit max output resolution to 960.
   v1.9                          # Use the command line of tve 1.9
@@ -100,7 +100,7 @@ https://thup.work/uploader/?mode=dl&id=25181&original=1<BR>
 https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 5.Javplayer_watermark_patch 102 - 109a<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
-6.TG-Plus Configuration Tool (0612)
+6.TG-Plus Configuration Tool (0612)<BR>
 https://thup.work/uploader/?mode=dl&id=25949&original=1
 
 ## Installation Instructions: <BR>
