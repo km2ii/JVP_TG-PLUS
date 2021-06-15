@@ -100,8 +100,8 @@ https://thup.work/uploader/?mode=dl&id=25181&original=1<BR>
 https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 5.Javplayer_watermark_patch 102 - 109a<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
-6.TG-Plus Configuration Tool (0612)<BR>
-https://thup.work/uploader/?mode=dl&id=25949&original=1
+6.TG-PLUS_ConfigTool_0614<BR>
+https://thup.work/uploader/?mode=dl&id=25957&original=1
 
 ## Installation Instructions: <BR>
 1.install Topaz Video Enhance AI,copy "X:\Program Files\Topaz Labs LLC\Topaz Video Enhance AI" <BR>
@@ -113,7 +113,7 @@ https://thup.work/uploader/?mode=dl&id=25949&original=1
 6.download Javplayer_watermark_patch,copy xxx\level0 to JavPlayer_Data.<BR>
 7.download runGan_veai_custom_patch,Overwrite the source files in the tgmain directory, backup first.<BR>
 8.put mod.ini into  javplayer_109a TG folder.<BR>
-9.download TG-Plus Configuration Tool,unzip the file to javplayer_109a main folder.
+9.download TG-Plus Configuration Tool,unzip to javplayer_109a main folder.
 
 ![](directory.png)
 ![](ConfigTools.jpg)
