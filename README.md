@@ -101,8 +101,20 @@ https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 5.Javplayer_watermark_patch 102 - 109a<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
 6.TG-PLUS_ConfigTool_0614<BR>
-https://thup.work/uploader/?mode=dl&id=25957&original=1
-
+https://thup.work/uploader/?mode=dl&id=25957&original=1<BR>
+7.Only use CPU issues.<BR>
+Because the cuda runtime support libraries could not be found in the system environment paths.<BR>
+The solution is,Find these dlls from the system or download from the Internet and copy them into the TGMAIN directory:<BR>
+https://thup.work/uploader/?mode=dl&id=26420&original=1<BR>
+ <pre>
+cublas64_10.dll
+cudart64_101.dll
+cudnn64_7.dll
+cufft64_10.dll
+curand64_10.dll
+cusolver64_10.dll
+cusparse64_10.dll</pre>
+  
 ## Installation Instructions: <BR>
 1.install Topaz Video Enhance AI,copy "X:\Program Files\Topaz Labs LLC\Topaz Video Enhance AI" <BR>
   to Javplyer_109a main folder. rename the folder to TVE.<BR>
