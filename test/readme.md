@@ -13,8 +13,8 @@ To test using the command line, cd to the respective TG directory.<BR>
 1.Orginal version<BR>
 Because the original version does not have a run time display, the test was carried out using console batch commands https://github.com/km2ii/JP109A_TG-PLUS/blob/main/test/call_tg.cmd.<BR>
 
-copy call_tg.cmd into TG directory.
-call_tg.cmd
+copy call_tg.cmd into TG directory.<BR>
+
 ![image](https://user-images.githubusercontent.com/55206195/126047729-77158e0a-9ff3-4372-a935-cb2d25aa6c47.png)
 ![image](https://user-images.githubusercontent.com/55206195/126047750-89fe0152-7551-46b6-a490-76d90f438405.png)
 
