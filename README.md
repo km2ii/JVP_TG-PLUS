@@ -100,8 +100,8 @@ https://thup.work/uploader/?mode=dl&id=25181&original=1<BR>
 https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 5.Javplayer_watermark_patch 102 - 109a<BR>
 https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
-6.TG-PLUS_ConfigTool_0614<BR>
-https://thup.work/uploader/?mode=dl&id=25957&original=1<BR>
+6.TG-PLUS_ConfigTool_0720 fix bugs<BR>
+https://thup.work/uploader/?mode=dl&id=26488&original=1<BR>
 7.Only use CPU issues.<BR>
 Because the cuda runtime support libraries could not be found in the system environment paths.<BR>
 The solution is,Find these dlls from the system or download from the Internet and copy them into the TGMAIN directory:<BR>
