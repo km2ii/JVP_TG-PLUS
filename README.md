@@ -89,17 +89,17 @@ veai.ini    #veai custom dictionary file.<BR>
 
 ## Packs: (unrar password: km)<BR>
 1.TG-Plus Packs. (support 3000 series)<BR>
-https://thuploader.orz.hm/uploader/?mode=dl&id=24596&original=1<BR>
-https://thuploader.orz.hm/uploader/?mode=dl&id=24597&original=1<BR>
+https://thup.work/uploader/?mode=dl&id=24596&original=1<BR>
+https://thup.work/uploader/?mode=dl&id=24597&original=1<BR>
 2.runGan_veai_custom_patch<BR>
-https://thuploader.orz.hm/uploader/?mode=dl&id=24710&original=1<BR>
+https://thup.work/uploader/?mode=dl&id=24710&original=1<BR>
 Overwrite the source files in the tgmain directory, backup first.<BR>
 3.download TG-MODEL<BR>
 https://thup.work/uploader/?mode=dl&id=25181&original=1<BR>
 4.Video Quality patch for 1.08 safe mode.<BR>
 https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 5.Javplayer_watermark_patch 102 - 109a<BR>
-https://thuploader.orz.hm/uploader/?mode=dl&id=22129<BR>
+https://thup.work/uploader/?mode=dl&id=22129<BR>
 6.TG-PLUS_ConfigTool_0720 fix bugs<BR>
 https://thup.work/uploader/?mode=dl&id=26488&original=1<BR>
 7.Only use CPU issues.<BR>
