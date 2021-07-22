@@ -2,9 +2,8 @@
 ![](logo240.png) <BR>
 This is a Tutorial to install and use the enhanced MOD for javplayer_109a, enhance the effect after removing mosaic.<BR>
 This MOD was created by the Discord community kmkii#8701.<BR>
-Just for learning and communication purposes only,Do not use it for any commercial purposes.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
-
+<strong>I state this mod is completely free. Just for learning and communication purposes only.Do not use it for any commercial purposes.</strong><BR>
 
 ## Featrue:<BR>
 1.Add TopazVideoEnhanceAI enhancement function.<BR>
@@ -102,9 +101,9 @@ https://thup.work/uploader/?mode=dl&id=25758&original=1<BR>
 https://thup.work/uploader/?mode=dl&id=22129<BR>
 6.TG-PLUS_ConfigTool_0720 fix bugs<BR>
 https://thup.work/uploader/?mode=dl&id=26488&original=1<BR>
-7.Only use CPU issues.<BR>
+7.Update CPU issues.<BR>
 Because the cuda runtime support libraries could not be found in the system environment paths.<BR>
-The solution is,Find these dlls from the system or download from the Internet and copy them into the TGMAIN directory:<BR>
+The solution is find these dlls from the system copy into the TGMAIN directory.<BR>
 https://thup.work/uploader/?mode=dl&id=26420&original=1<BR>
  <pre>
 cublas64_10.dll
@@ -129,6 +128,6 @@ cusparse64_10.dll</pre>
 
 ![](directory.png)
 ![](ConfigTools.jpg)
-
-#### I state this mod is completely free , do not use it for any commercial purposes, pretend to be an author for sale more shameful.<BR>
+-
+## I state this mod is completely free Again, Do not use it for any commercial purposes, pretend to be an author for sale more shameful.<BR>
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
