@@ -3,7 +3,8 @@
 This is a tutorial to install and use the enhanced MOD for javplayer 109a, enhance the effect after removing mosaic.
 This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
-<pre><strong>I state this mod is completely free. Just for learning and communication purposes only.Do not use it for any commercial purposes.</strong><BR></pre>
+<pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR>
+Do not use it for any commercial purposes.</strong><BR></pre>
 
 ## Changelogs：
 <pre>
