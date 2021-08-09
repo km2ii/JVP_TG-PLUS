@@ -42,7 +42,7 @@ Installation Instructions.
 </pre>
 
 ## Configuration:
-Config.ini is generated automatically on first run.
+Config.ini is generated automatically on first run. Refer to the old documentation to modify the running parameters.
 <pre>
 [main]
 mode = TG-PLUS
