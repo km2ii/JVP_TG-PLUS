@@ -5,6 +5,8 @@ This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
 <strong>I state this mod is completely free. Just for learning and communication purposes only.Do not use it for any commercial purposes.</strong><BR>
 
+## The thup.work is out of service.I don't know when it will be back up.<BR>
+  
 ## Featrue:<BR>
 1.Add TopazVideoEnhanceAI enhancement function.<BR>
 2.Support TecoGAN 2X 8X models and Secondary-enhancement model SE-2X,SE-4X (insufficient training).<BR>
