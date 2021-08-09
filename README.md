@@ -25,7 +25,7 @@ Do not use it for any commercial purposes.</strong><BR></pre>
    radio 2 4 
    #4 veai usage veai:4:ahq
    model ahq,alq,gcg....
-6. No need to copy rename tve, the default installation of the chemical will automatically get veai parameters, 
+6. No need to copy rename to tve, default installation of veai , the mod will automatically get parameters, 
    other locations please specify in the config.ini. Note that some versions of veai have problems, if you can't use it, 
    please check whether the model is available in the veai command line first.
 7. You can choose jpg png image format now, but it will be converted to png before calling veai. veai does not support jpg :( .
