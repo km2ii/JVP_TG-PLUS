@@ -1,5 +1,5 @@
 # TG-Plus for JP_109a<BR>
-![](logo240.png) <BR>
+![](assets/logo240.png) <BR>
 This is a Tutorial to install and use the enhanced MOD for javplayer_109a, enhance the effect after removing mosaic.<BR>
 This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
@@ -128,8 +128,8 @@ cusparse64_10.dll</pre>
 8.put mod.ini into  javplayer_109a TG folder.<BR>
 9.download TG-Plus Configuration Tool,unzip to javplayer_109a main folder.
 
-![](directory.png)
-![](ConfigTools.jpg)
+![](old/directory.png)
+![](old/ConfigTools.jpg)
 -
 ## I state this mod is completely free Again, Do not use it for any commercial purposes, pretend to be an author for sale more shameful.<BR>
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
