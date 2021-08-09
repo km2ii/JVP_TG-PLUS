@@ -41,6 +41,51 @@ Installation Instructions.
 4. For some details, please refer to the old documentation.
 </pre>
 
+## Configuration:
+Config.ini is generated automatically on first run.
+<pre>
+[main]
+mode = TG-PLUS
+
+[mplus]
+m1 = tecogan:4:TG-STD
+m2 = denoise:tla
+m3 = tecogan:4:SE-4X-R1
+m4 = downscale:2
+m5 = denoise:hyb
+m6 = veai:4:prob
+m7 = 
+m8 = 
+m9 = 
+m10 = 
+
+[others]
+imgext = png
+crf = 22
+resolution = 1920
+veaipath = C:/Program Files/Topaz Labs LLC/Topaz Video Enhance AI/veai.exe
+
+[veaidict]
+aaa = aaa-9
+ahq = ahq-11
+alq = alq-12
+alqs = alqs-1
+amq = amq-12
+amqs = amqs-1
+chr = chr-1
+ddv = ddv-2
+dtd = dtd-3
+dtds = dtds-1
+dtv = dtv-3
+dtvs = dtvs-1
+gcg = gcg-5
+ghq = ghq-5
+no = no-1
+prap = prap-1
+prob = prob-1
+thd = thd-3
+thf = thf-4
+</pre>
 ## MOD:
 1.TG-PLUS_v.1.08.09.rar (420.84 MB) <BR>
 https://workupload.com/file/jNhBfxN8D6R passwd:km<BR>
