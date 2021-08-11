@@ -5,7 +5,7 @@ This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
 <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR>
 Do not use it for any commercial purposes.</strong><BR></pre>
-
+![](assets/v.1.08.09.png)<BR>
 ## Changelogs：
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
@@ -86,13 +86,16 @@ prob = prob-1
 thd = thd-3
 thf = thf-4
 </pre>
-## MOD:
-1.TG-PLUS_v.1.08.09.rar (420.84 MB) <BR>
+## Update:
+1. TG-PLUS_v.1.08.09.rar (420.84 MB) <BR>
 https://workupload.com/file/jNhBfxN8D6R passwd:km<BR>
-2.Cuda_dlls.rar (402.27 MB)<BR>
+2. v0.1.08.09_patch_01.rar (19.16 MB)<BR>
+Fix the create configuration file bug.<BR>
+https://workupload.com/file/vAvSWQfXKSw<BR>
+3. Cuda_dlls.rar (402.27 MB)<BR>
 If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
-3.Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
+4. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 ## Old Tutorial.
 The thup.work is out of service.I don't know when it will be back up.<BR>
