@@ -87,15 +87,13 @@ thd = thd-3
 thf = thf-4
 </pre>
 ## Update:
-1. TG-PLUS_v.1.08.09.rar (420.84 MB) <BR>
-https://workupload.com/file/jNhBfxN8D6R passwd:km<BR>
-2. v0.1.08.09_patch_01.rar (19.16 MB)<BR>
-Fix the create configuration file bug.<BR>
-https://workupload.com/file/vAvSWQfXKSw<BR>
-3. Cuda_dlls.rar (402.27 MB)<BR>
+1. TG-PLUS_v.1.08.12.rar (430.88 MB) <BR>
+https://workupload.com/file/xGmdZzsZmLp passwd:km<BR>
+Fix some bugs.
+2. Cuda_dlls.rar (402.27 MB)<BR>
 If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
-4. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
+3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 ## Old Tutorial.
 The thup.work is out of service.I don't know when it will be back up.<BR>
