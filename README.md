@@ -87,13 +87,14 @@ thd = thd-3
 thf = thf-4
 </pre>
 ## Update:
-passwd:km
+    passwd:km 
 1. TG-PLUS_v.1.08.12.rar (430.88 MB) <BR>
 Fix some bugs. <BR>
 https://workupload.com/file/xGmdZzsZmLp 
 2. TG-PLUS_v.1.08.12_patch01.rar (111.12 KB) <BR>
 Fix vspipe.exe path error, overwrite the original file. <BR>
-https://workupload.com/file/CtShEwPrmnt
+https://workupload.com/file/CtShEwPrmnt<BR>
+if encountered "ModuleNotFoundError: No module named 'muvsfunc'",refer [🔖#10](https://github.com/km2ii/JP109A_TG-PLUS/issues/10).
 3. Cuda_dlls.rar (402.27 MB)<BR>
 If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
