@@ -1,5 +1,5 @@
 # JP109A_TG-PLUS
-![](assets/main.png) <BR>
+![](assets/logo960.png) <BR>
 This is a tutorial to install and use the enhanced MOD for javplayer 109a, enhance the effect after removing mosaic.
 This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
@@ -88,17 +88,16 @@ thf = thf-4
 </pre>
 ## Update:
     passwd:km 
-1. TG-PLUS_v.1.08.12.rar (430.88 MB) <BR>
-Fix some bugs. <BR>
-https://workupload.com/file/xGmdZzsZmLp 
-2. TG-PLUS_v.1.08.12_patch01.rar (111.12 KB) <BR>
-Fix vspipe.exe path error, overwrite the original file. <BR>
-https://workupload.com/file/CtShEwPrmnt<BR>
-if encountered "ModuleNotFoundError: No module named 'muvsfunc'",refer [🔖#10](https://github.com/km2ii/JP109A_TG-PLUS/issues/10).
-3. Cuda_dlls.rar (402.27 MB)<BR>
+1. TG-PLUS_v.1.08.17.rar (499.75 MB) <BR>
+Fixed some bugs, no new features, no need to re-download. <BR>
+https://workupload.com/file/NYvUanSKLT6
+2. Gpu issues.<BR>
 If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
+Cuda_dlls.rar (402.27 MB)<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
-4. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
+3000 series also need dlls_3.rar (331.79 MB)<BR>
+https://workupload.com/file/M69AEP26uXA <BR>
+3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 ## Old Tutorial.
 The thup.work is out of service.I don't know when it will be back up.<BR>
