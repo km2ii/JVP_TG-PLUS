@@ -7,6 +7,34 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 Do not use it for any commercial purposes.</strong><BR></pre>
 ![](assets/v.1.08.09.png)<BR>
 ## Changelogs：
+<strong>Note. 
+Because updated parameters, the old config.ini will not work need to deleted and re-generated.
+</strong>
+#### TG-Plus for JP_109a v0.1.08.20<br>
+<pre>
+1.Add skip_imgs arg, skips se,denoise,downscale,veai steps, if the images less than skip_imgs.
+  Please use with caution after testing.
+2.Add veai_theia_model_opt and veai_proteus_model_opt args for custom Theia,Proteus models. 
+  More detail refer to config.ini and the veai documentation.
+
+ [veai_theia_model_opt]        #veai model thd, thf
+  sharpen <0-100>             Amount of sharpening for output video [0-100] Defaults to 15.
+  enhance-detail <0-100>      Amount of compression, affects the amount of detail that can be kept. [0-100]. Defaults to 50.
+  reduce-noise <0-100>        Reduce noise. Values can be from 0 to 100. [0-100]. Defaults to 0.
+
+ [veai_proteus_model_opt]      #veai model prob
+  compression <0-100>         Revert Compression. Values can be from 0 to 100. [0-100]. Defaults to 0.
+  details <0-100>             Recover Details. Values can be from 0 to 100. [0-100]. Defaults to 0.
+  blur <0-100>                Sharpen. Values can be from 0 to 100. [0-100]. Defaults to 0.
+  noise <0-100>               Reduce Noise. Values can be from 0 to 100. [0-100]. Defaults to 0.
+  halo <0-100>                Dehalo. Values can be from 0 to 100. [0-100]. Defaults to 0.
+  preBlur <-100-100>          Antialias / DeBlur. Values can be from 0 to 100. [-100-100]. Defaults to 0.
+
+3.Add debug arg, ON used to display warning messages and troubleshoot such as inability to call GPU. 
+4.Fixed SE-4X-R1 model.
+
+</pre>
+#### TG-Plus for JP_109a v0.1.08.09
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
 2. Abandoned esrgan and call.py extension mode.
@@ -46,12 +74,13 @@ Config.ini is generated automatically on first run. Refer to the old documentati
 <pre>
 [main]
 mode = TG-PLUS
+debug = OFF
 
 [mplus]
 m1 = tecogan:4:TG-STD
 m2 = denoise:tla
 m3 = tecogan:4:SE-4X-R1
-m4 = downscale:2
+m4 = downscale:4
 m5 = denoise:hyb
 m6 = veai:4:prob
 m7 = 
@@ -61,9 +90,24 @@ m10 =
 
 [others]
 imgext = png
-crf = 22
+skip_imgs = 14
 resolution = 1920
+
+[veai]
 veaipath = C:/Program Files/Topaz Labs LLC/Topaz Video Enhance AI/veai.exe
+
+[veai_theia_model_opt]
+sharpen = 15
+enhance-detail = 50
+reduce-noise = 0
+
+[veai_proteus_model_opt]
+compression = 52
+details = 24
+blur = 9
+noise = 7
+halo = 12
+preblur = -19
 
 [veaidict]
 aaa = aaa-9
@@ -88,9 +132,9 @@ thf = thf-4
 </pre>
 ## Update:
     passwd:km 
-1. TG-PLUS_v.1.08.17.rar (499.75 MB) <BR>
-Fixed some bugs, no new features, no need to re-download. <BR>
-https://workupload.com/file/NYvUanSKLT6
+1. TG-PLUS_v0.1.08.20.rar (498.07 MB)<BR>
+Add veai_theia_model_opt and veai_proteus_model_opt args for custom Theia,Proteus models.<BR>
+https://workupload.com/file/UFstZpk5Byb
 2. Gpu issues.<BR>
 If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
 Cuda_dlls.rar (402.27 MB)<BR>
