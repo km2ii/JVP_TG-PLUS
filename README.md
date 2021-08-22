@@ -12,12 +12,11 @@ Do not use it for any commercial purposes.</strong><BR></pre>
 ## Changelogs：
 #### TG-Plus_V0.1.08.22 Configuration Tools<BR>
 <pre>
-Adapted to version V0.1.08.22. Other versions will report error.<BR>
-</pre>
+Unzip ConfigTools.exe to the directory where javplayer.exe is located.
+Adapted to version V0.1.08.22. Other versions will report error.<BR></pre>
 #### TG-Plus for JP_109a v0.1.08.22 patch<br>
 <pre>
-Fixed skip_imgs bugs. Now can set resolution to NoLimited.<br>
-</pre>
+Fixed skip_imgs bugs. Now can set resolution to NoLimited.<br></pre>
 #### TG-Plus for JP_109a v0.1.08.20<br>
 <pre>
 <strong>Note. 
