@@ -5,13 +5,24 @@ This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
 <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR>
 Do not use it for any commercial purposes.</strong><BR></pre>
+### Console Interface
 ![](assets/v.1.08.09.png)<BR>
+### Configuration Tools
+![](assets/TG-Plus_V0.1.08.22_Configuration_Tools.png)<BR>
 ## Changelogs：
+#### TG-Plus_V0.1.08.22 Configuration Tools<BR>
+<pre>
+Adapted to version V0.1.08.22. Other versions will report error.<BR>
+</pre>
+#### TG-Plus for JP_109a v0.1.08.22 patch<br>
+<pre>
+Fixed skip_imgs bugs. Now can set resolution to NoLimited.<br>
+</pre>
+#### TG-Plus for JP_109a v0.1.08.20<br>
+<pre>
 <strong>Note. 
 Because updated parameters, the old config.ini will not work need to deleted and re-generated.
 </strong>
-#### TG-Plus for JP_109a v0.1.08.20<br>
-<pre>
 1.Add skip_imgs arg, skips se,denoise,downscale,veai steps, if the images less than skip_imgs.
   Please use with caution after testing.
 2.Add veai_theia_model_opt and veai_proteus_model_opt args for custom Theia,Proteus models. 
@@ -135,13 +146,19 @@ thf = thf-4
 1. TG-PLUS_v0.1.08.20.rar (498.07 MB)<BR>
 Add veai_theia_model_opt and veai_proteus_model_opt args for custom Theia,Proteus models.<BR>
 https://workupload.com/file/UFstZpk5Byb
-2. Gpu issues.<BR>
+2. TG-Plus_v.0.1.08.22_patch.rar (114.70 KB)<BR>
+Fixed skip_imgs bugs. Now can set resolution to NoLimited.<BR>
+https://workupload.com/file/UFqXAyYqNTf
+3. TG-Plus_V0.1.08.22_Configuration_Tools.rar (37.67 MB)<BR>
+Adapted to version V0.1.08.22. Other versions will report error.<BR>
+https://workupload.com/file/KFRw65Qnkzw<BR>
+4. Gpu issues.<BR>
 If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
 Cuda_dlls.rar (402.27 MB)<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
 3000 series also need dlls_3.rar (331.79 MB)<BR>
 https://workupload.com/file/M69AEP26uXA <BR>
-3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
+5. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 ## Old Tutorial.
 The thup.work is out of service.I don't know when it will be back up.<BR>
