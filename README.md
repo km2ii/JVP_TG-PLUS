@@ -9,15 +9,28 @@ Do not use it for any commercial purposes.</strong><BR></pre>
 ![](assets/v.1.08.09.png)<BR>
 ### Configuration Tools
 ![](assets/TG-Plus_V0.1.08.22_Configuration_Tools.png)<BR>
+## Installation Instructions:
+<pre>
+1. The runtime environment is cuda11.1 cudnn8.1.1, Please install and configure it.
+2. Unzip zipfile to JavPlayer_109a/TG/ directory.
+3. Configuration file Config.ini will auto-generated on first run.
+4. Optional Topaz Video Enhance AI, Use the default installation path to get veai parameters. 
+   If installed elsewhere please specify the directory where veai is located in config.ini or use ConfigTools. 
+5. For some details, please refer to the old documentation. 
+</pre>
 ## Changelogs：
-#### TG-Plus_V0.1.08.22 Configuration Tools<BR>
+    passwd:km 
+#### 1.TG-Plus_V0.1.08.22 Configuration Tools (37.67 MB)<BR>
+https://workupload.com/file/KFRw65Qnkzw
 <pre>
 Unzip ConfigTools.exe to the directory where javplayer.exe is located.
 Adapted to version V0.1.08.22. Other versions will report error.<BR></pre>
-#### TG-Plus for JP_109a v0.1.08.22 patch<br>
+#### 2.TG-Plus for JP_109a v0.1.08.22 patch (114.70 KB)<br>
+https://workupload.com/file/UFqXAyYqNTf
 <pre>
 Fixed skip_imgs bugs. Now can set resolution to NoLimited.<br></pre>
-#### TG-Plus for JP_109a v0.1.08.20<br>
+#### 3.TG-Plus for JP_109a v0.1.08.20 (498.07 MB)<br>
+https://workupload.com/file/UFstZpk5Byb<BR>
 <pre>
 <strong>Note. 
 Because updated parameters, the old config.ini will not work need to deleted and re-generated.
@@ -42,9 +55,8 @@ Because updated parameters, the old config.ini will not work need to deleted and
 
 3.Add debug arg, ON used to display warning messages and troubleshoot such as inability to call GPU. 
 4.Fixed SE-4X-R1 model.
-
 </pre>
-#### TG-Plus for JP_109a v0.1.08.09
+#### 4.TG-Plus for JP_109a v0.1.08.09
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
 2. Abandoned esrgan and call.py extension mode.
@@ -71,16 +83,9 @@ Because updated parameters, the old config.ini will not work need to deleted and
    Will update the model if there was time.
 9. Fix some bugs, rearranged the output information.
 10. Optimize package remove some unused libraries.
-
-Installation Instructions.
-1. Please pay attention to backup.
-2. Unzip it to JavPlayer_109a/TG/TGMAIN directory.
-3. The configuration file is in the TG directory.
-4. For some details, please refer to the old documentation.
 </pre>
-
-## Configuration:
-Config.ini is generated automatically on first run. Refer to the old documentation to modify the running parameters.
+## Configuration: 
+config.ini
 <pre>
 [main]
 mode = TG-PLUS
@@ -89,10 +94,10 @@ debug = OFF
 [mplus]
 m1 = tecogan:4:TG-STD
 m2 = denoise:tla
-m3 = tecogan:4:SE-4X-R1
-m4 = downscale:4
+m3 = tecogan:4:SE-4X
+m4 = downscale:2
 m5 = denoise:hyb
-m6 = veai:4:prob
+m6 = veai:4:ahq
 m7 = 
 m8 = 
 m9 = 
@@ -120,46 +125,25 @@ halo = 12
 preblur = -19
 
 [veaidict]
-aaa = aaa-9
-ahq = ahq-11
-alq = alq-12
-alqs = alqs-1
-amq = amq-12
-amqs = amqs-1
-chr = chr-1
-ddv = ddv-2
-dtd = dtd-3
-dtds = dtds-1
-dtv = dtv-3
-dtvs = dtvs-1
-gcg = gcg-5
-ghq = ghq-5
-no = no-1
-prap = prap-1
-prob = prob-1
-thd = thd-3
-thf = thf-4
+...
 </pre>
-## Update:
-    passwd:km 
-1. TG-PLUS_v0.1.08.20.rar (498.07 MB)<BR>
-Add veai_theia_model_opt and veai_proteus_model_opt args for custom Theia,Proteus models.<BR>
-https://workupload.com/file/UFstZpk5Byb
-2. TG-Plus_v.0.1.08.22_patch.rar (114.70 KB)<BR>
-Fixed skip_imgs bugs. Now can set resolution to NoLimited.<BR>
-https://workupload.com/file/UFqXAyYqNTf
-3. TG-Plus_V0.1.08.22_Configuration_Tools.rar (37.67 MB)<BR>
-Adapted to version V0.1.08.22. Other versions will report error.<BR>
-https://workupload.com/file/KFRw65Qnkzw<BR>
-4. Gpu issues.<BR>
-If encounter Gpu issues, unzip CUDA_Dlls.rar to tgmain directory.<BR>
-Cuda_dlls.rar (402.27 MB)<BR>
+## Others:
+1. If encounter Gpu issues, unzip CUDA_Dlls.rar (402.27 MB) to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
-3000 series also need dlls_3.rar (331.79 MB)<BR>
+2. IF you use 3000 series also need dlls_3.rar (331.79 MB)<BR>
 https://workupload.com/file/M69AEP26uXA <BR>
-5. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
+3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
-## Old Tutorial.
-The thup.work is out of service.I don't know when it will be back up.<BR>
+
+## Integrity:
+ver: TG-Plus_V0.1.08.22
+<pre><strong>ConfigTools.exe   MD5:260c3b567f7d8300f6e3f1eec2b40c90
+TGMAIN/tgmain.exe MD5:9189ccf8251ead6322f23bf7cf637ff8
+TGMAIN/main.exe   MD5:c4f8172bc044c56f410b7422cb437fa5
+TGMAIN/runGan.exe MD5:5cddea4b12df20f69dc7936a6183528b</strong></pre>
+
+## Old Tutorial:
 https://github.com/km2ii/JP109A_TG-PLUS/blob/main/README_OLD.md.<BR>
+The thup.work is out of service.I don't know when it will be back up.<BR>
+For reference only no need to download links in this document.<BR>
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
