@@ -136,7 +136,7 @@ https://workupload.com/file/M69AEP26uXA <BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 
 ## Integrity:
-ver: TG-Plus_V0.1.08.22
+TG-Plus_V0.1.08.22
 <pre><strong>ConfigTools.exe   MD5:260c3b567f7d8300f6e3f1eec2b40c90
 TGMAIN/tgmain.exe MD5:9189ccf8251ead6322f23bf7cf637ff8
 TGMAIN/main.exe   MD5:c4f8172bc044c56f410b7422cb437fa5
