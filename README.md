@@ -16,6 +16,7 @@ Do not use it for any commercial purposes.</strong><BR></pre>
 3. Configuration file Config.ini will auto-generated on first run.
 4. Optional Topaz Video Enhance AI, Use the default installation path to get veai parameters. 
    If installed elsewhere please specify the directory where veai is located in config.ini or use ConfigTools. 
+   Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
 5. For some details, please refer to the old documentation. 
 </pre>
 ## Changelogs：
