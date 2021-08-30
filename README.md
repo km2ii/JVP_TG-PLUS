@@ -1,14 +1,15 @@
 # JP109A_TG-PLUS
 ![](assets/logo960.png) <BR>
-This is a tutorial to install and use the enhanced MOD for javplayer 109a, enhance the effect after removing mosaic.
-This MOD was created by the Discord community kmkii#8701.<BR>
-If you can run the original javplayer, the mod should be easy to run as well.<BR>
 <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR>
 Do not use it for any commercial purposes.</strong><BR></pre>
+   This is a tutorial to install and use the enhanced MOD for javplayer 109a, enhance the effect after removing mosaic.
+This MOD was created by the Discord community kmkii#8701.<BR>
+If you can run the original javplayer, the mod should be easy to run as well.<BR>
+
 ### Console Interface
-![](assets/v.1.08.09.png)<BR>
+![](assets/v.1.08.30.png)<BR>
 ### Configuration Tools
-![](assets/TG-Plus_V0.1.08.22_Configuration_Tools.png)<BR>
+![](assets/ConfigTools_V0.1.08.30.png)<BR>
 ## Installation Instructions:
 <pre>
 1. The runtime environment is cuda11.1 cudnn8.1.1, Please install and configure it.
@@ -19,19 +20,28 @@ Do not use it for any commercial purposes.</strong><BR></pre>
    Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
 5. For some details, please refer to the old documentation. 
 </pre>
-## Changelogs：
+## [Changelogs]
     passwd:km 
-#### 1.TG-Plus_V0.1.08.22 Configuration Tools (37.67 MB)<BR>
-https://workupload.com/file/KFRw65Qnkzw
+#### <strong>TG-Plus for JP_109a v0.1.08.30 </strong>(597.93 MB)
+https://workupload.com/file/8EdjLzp8A8y
 <pre>
-Unzip ConfigTools.exe to the directory where javplayer.exe is located.
-Adapted to version V0.1.08.22. Other versions will report error.<BR></pre>
-#### 2.TG-Plus for JP_109a v0.1.08.22 patch (114.70 KB)<br>
-https://workupload.com/file/UFqXAyYqNTf
-<pre>
-Fixed skip_imgs bugs. Now can set resolution to NoLimited.<br></pre>
-#### 3.TG-Plus for JP_109a v0.1.08.20 (498.07 MB)<br>
-https://workupload.com/file/UFstZpk5Byb<BR>
+1. Update the console interface show more information about tasks.
+2. Update model SE-4X-S1, sharper comparison with SE-4X.
+3. NEW ue-model UE-4X, for detail enhancement of effects after SE or veai.
+  The usual usage. 
+   a. tg-se-ue 
+   b. tg-veai-ue 
+   c. tg-se-veai-ue 
+  Note:  
+   After tg-se-veai multiple upscales, the UE should be preceded by a downscale:4, to prevent out-of-memory errors. 
+   For UE models, the denoise function is recommended for use after tg only, That will save a lot of time. 
+4. Update ConfigTools V0.1.08.30 adapted to new models. 
+5. Update some usage examples. 
+</pre>
+
+### [History Changelogs]
+
+#### TG-Plus for JP_109a v0.1.08.20<br>
 <pre>
 <strong>Note. 
 Because updated parameters, the old config.ini will not work need to deleted and re-generated.
@@ -57,7 +67,8 @@ Because updated parameters, the old config.ini will not work need to deleted and
 3.Add debug arg, ON used to display warning messages and troubleshoot such as inability to call GPU. 
 4.Fixed SE-4X-R1 model.
 </pre>
-#### 4.TG-Plus for JP_109a v0.1.08.09
+
+#### TG-Plus for JP_109a v0.1.08.09
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
 2. Abandoned esrgan and call.py extension mode.
@@ -95,10 +106,10 @@ debug = OFF
 [mplus]
 m1 = tecogan:4:TG-STD
 m2 = denoise:tla
-m3 = tecogan:4:SE-4X
-m4 = downscale:2
-m5 = denoise:hyb
-m6 = veai:4:ahq
+m3 = tecogan:4:SE-4X-S1
+m4 = veai:4:prob
+m5 = downscale:4
+m6 = tecogan:4:UE-4X
 m7 = 
 m8 = 
 m9 = 
@@ -137,11 +148,11 @@ https://workupload.com/file/M69AEP26uXA <BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 
 ## Integrity:
-TG-Plus_V0.1.08.22
+TG-Plus_V0.1.08.30
 <pre><strong>ConfigTools.exe   MD5:260c3b567f7d8300f6e3f1eec2b40c90
 TGMAIN/tgmain.exe MD5:9189ccf8251ead6322f23bf7cf637ff8
-TGMAIN/main.exe   MD5:c4f8172bc044c56f410b7422cb437fa5
-TGMAIN/runGan.exe MD5:5cddea4b12df20f69dc7936a6183528b</strong></pre>
+TGMAIN/main.exe   MD5:a9677df6af86300802d7bcde7f6b8a1e
+TGMAIN/runGan.exe MD5:4e3fd07d9372815f2e8fd1c78655232c</strong></pre>
 
 ## Old Tutorial:
 https://github.com/km2ii/JP109A_TG-PLUS/blob/main/README_OLD.md.<BR>
