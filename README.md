@@ -159,7 +159,7 @@ https://github.com/km2ii/JP109A_TG-PLUS/blob/main/README_OLD.md.<BR>
 The thup.work is out of service.I don't know when it will be back up.<BR>
 For reference only no need to download links in this document.<BR>
 
-<pre><strong>Please note that there are people faking the author to sell old version on youtube and gumroad, 
+<pre><strong>Please note that there are people faking author to sell old version on youtube and gumroad, 
 Beware of being cheated!!!</strong></pre>
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
