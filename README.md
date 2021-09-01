@@ -22,8 +22,8 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 </pre>
 ## [Changelogs]
     passwd:km 
-#### <strong>TG-Plus for JP_109a v0.1.08.30 </strong>(597.93 MB)
-https://workupload.com/file/8EdjLzp8A8y
+#### <strong>TG-Plus for JP_109a v0.1.08.30a </strong> (598.02 MB)
+
 <pre>
 1. Update the console interface show more information about tasks.
 2. Update model SE-4X-S1, sharper comparison with SE-4X.
@@ -37,6 +37,7 @@ https://workupload.com/file/8EdjLzp8A8y
    For UE models, the denoise function is recommended for use after tg only, That will save a lot of time. 
 4. Update ConfigTools V0.1.08.30 adapted to new models. 
 5. Update some usage examples. 
+6. Fixed a few bugs.
 </pre>
 
 ### [History Changelogs]
