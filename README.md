@@ -22,8 +22,8 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 </pre>
 ## [Changelogs]
     passwd:km 
-#### <strong>TG-Plus for JP_109a v0.1.08.30a </strong> (598.02 MB)
-https://workupload.com/file/aMrayxQDHbH
+#### <strong>TG-Plus for JP_109a v0.1.08.30b </strong> (551.12 MB)
+https://workupload.com/file/YbENWJX6yrd
 <pre>
 1. Update the console interface show more information about tasks.
 2. Update model SE-4X-S1, sharper comparison with SE-4X.
