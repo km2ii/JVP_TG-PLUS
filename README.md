@@ -150,7 +150,7 @@ https://workupload.com/file/zWdsxcGAYtx<BR>
 
 ## Integrity:
 TG-Plus_V0.1.08.30
-<pre><strong>ConfigTools.exe   MD5:260c3b567f7d8300f6e3f1eec2b40c90
+<pre><strong>
 TGMAIN/tgmain.exe MD5:9189ccf8251ead6322f23bf7cf637ff8
 TGMAIN/main.exe   MD5:a9677df6af86300802d7bcde7f6b8a1e
 TGMAIN/runGan.exe MD5:4e3fd07d9372815f2e8fd1c78655232c</strong></pre>
