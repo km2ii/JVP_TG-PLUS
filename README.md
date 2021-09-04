@@ -6,9 +6,9 @@ Do not use it for any commercial purposes.</strong><BR></pre>
 This MOD was created by the Discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well.<BR>
 
-### Console Interface
+## Console Interface.
 ![](assets/v.1.08.30.png)<BR>
-### Configuration Tools
+## Configuration Tools.
 ![](assets/ConfigTools_V0.1.08.30.png)<BR>
 ## Installation Instructions:
 <pre>
@@ -20,9 +20,9 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
    Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
 5. For some details, please refer to the old documentation. 
 </pre>
-## [Changelogs]
+## Changelogs.
     passwd:km 
-#### <strong>TG-Plus for JP_109a v0.1.08.30b </strong> (551.12 MB)
+### <strong>TG-Plus for JP_109a v0.1.08.30b </strong> (551.12 MB)
 https://workupload.com/file/NU45mZrGdNg
 <pre>
 1. Update the console interface show more information about tasks.
@@ -40,8 +40,7 @@ https://workupload.com/file/NU45mZrGdNg
 6. Fixed a few bugs.
 </pre>
 
-### [History Changelogs]
-
+### History Changelogs.
 #### TG-Plus for JP_109a v0.1.08.20<br>
 <pre>
 <strong>Note. 
@@ -97,8 +96,8 @@ Because updated parameters, the old config.ini will not work need to deleted and
 9. Fix some bugs, rearranged the output information.
 10. Optimize package remove some unused libraries.
 </pre>
-## Configuration: 
-config.ini
+### Configuration.
+#### config.ini
 <pre>
 [main]
 mode = TG-PLUS
@@ -140,7 +139,21 @@ preblur = -19
 [veaidict]
 ...
 </pre>
-## Others:
+
+### Additional tools.
+#### JP_109A Video Quality Patch (5.81 MB)<br>
+https://workupload.com/file/YerW5Thg5mx<br>
+<pre>
+Add config.ini parameter crf to improve the quality of video in javplayer <strong>safe mode</strong>.
+The default value is 22, reduce this value will improve the quality, please refer to ffmpeg settings for details.
+
+Usage:
+1. Rename ffmpeg.exe to ffmpeg1.exe, copy this tool to javplayer home directory.
+2. Modify the TG/config.ini file, add a line crf = 22 in [others] parts, no modification will use the default value 22.
+3. This tool can be used to add a watermark to the generated video, put watermark image logo.png into the TG directory.
+   Watermark image will be randomly added to top left or bottom right corner of the video.
+</pre>
+## Others.
 1. If encounter Gpu issues, unzip CUDA_Dlls.rar (402.27 MB) to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
 2. IF you use 3000 series also need dlls_3.rar (331.79 MB)<BR>
@@ -148,14 +161,13 @@ https://workupload.com/file/M69AEP26uXA <BR>
 3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
 
-## Integrity:
+## Integrity.
 TG-Plus_V0.1.08.30
-<pre><strong>
-TGMAIN/tgmain.exe MD5:9189ccf8251ead6322f23bf7cf637ff8
+<pre><strong>TGMAIN/tgmain.exe MD5:9189ccf8251ead6322f23bf7cf637ff8
 TGMAIN/main.exe   MD5:a9677df6af86300802d7bcde7f6b8a1e
 TGMAIN/runGan.exe MD5:4e3fd07d9372815f2e8fd1c78655232c</strong></pre>
 
-## Old Tutorial:
+## Old Tutorial.
 https://github.com/km2ii/JP109A_TG-PLUS/blob/main/README_OLD.md.<BR>
 The thup.work is out of service.I don't know when it will be back up.<BR>
 For reference only no need to download links in this document.<BR>
