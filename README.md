@@ -9,7 +9,7 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ## Console Interface.
 ![](assets/v.1.08.30.png)<BR>
 ## Configuration Tools.
-![](assets/ConfigTools_V0.1.08.30.png)<BR>
+![](assets/TG-Plus_V0.1.08.30_Configuration_Tools_2.png)<BR>
 ## Installation Instructions:
 <pre>
 1. The runtime environment is cuda11.1 cudnn8.1.1, Please install and configure it.
@@ -22,7 +22,14 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 </pre>
 ## Changelogs.
     passwd:km 
-### <strong>TG-Plus for JP_109a v0.1.08.30b </strong> (551.12 MB)
+### <strong>1.TG-Plus V0.1.08.30 Configuration Tools patch </strong> (11.89 MB)
+https://workupload.com/file/YrEPFvFV8et<br>
+<pre><strong>Overwrite the original file, the patch will not work on its own. *Please note backup!</strong>
+1. Add crf parameter to improve the video quality in javplayer in combination with JP_109A_Video_Quality_patch.
+2. Add autoren parameter to auto-rename the generated video files according to config.ini when ConfigTools runs.
+3. Add right-click menu, provide 5 profiles mplus archive, easy to choose in video conversion..
+</pre>
+### <strong>2.TG-Plus for JP_109a v0.1.08.30b </strong> (551.12 MB)
 https://workupload.com/file/NU45mZrGdNg
 <pre>
 1. Update the console interface show more information about tasks.
@@ -41,7 +48,7 @@ https://workupload.com/file/NU45mZrGdNg
 </pre>
 
 ### History Changelogs.
-#### TG-Plus for JP_109a v0.1.08.20<br>
+#### 1.TG-Plus for JP_109a v0.1.08.20<br>
 <pre>
 <strong>Note. 
 Because updated parameters, the old config.ini will not work need to deleted and re-generated.
@@ -68,7 +75,7 @@ Because updated parameters, the old config.ini will not work need to deleted and
 4.Fixed SE-4X-R1 model.
 </pre>
 
-#### TG-Plus for JP_109a v0.1.08.09
+#### 2.TG-Plus for JP_109a v0.1.08.09
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
 2. Abandoned esrgan and call.py extension mode.
