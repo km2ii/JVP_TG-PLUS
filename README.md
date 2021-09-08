@@ -23,7 +23,7 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ## Changelogs.
     passwd:km 
 ### <strong>1.TG-Plus V0.1.08.30 Configuration Tools patch2.rar </strong> (11.89 MB)
-https://workupload.com/file/YrEPFvFV8et fixed a bug. <br>
+https://workupload.com/file/jrH3WaSwfLD fixed a bug. <br>
 <pre><strong>Overwrite the original file, the patch will not work on its own. *Please note backup!</strong>
 1. Add crf parameter to improve the video quality in javplayer in combination with JP_109A_Video_Quality_patch.
 2. Add autoren parameter to auto-rename the generated video files according to config.ini when ConfigTools runs.
