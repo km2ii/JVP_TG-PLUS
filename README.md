@@ -111,8 +111,8 @@ Because updated parameters, the old config.ini will not work need to deleted and
 </pre>
 
 ### Additional tools.
-#### JP_109A Video Quality Patch (5.81 MB)<br>
-https://workupload.com/file/4eEWkJKh8zL<br> 
+#### JP_109A Video Quality Patch (5.63 MB)<br>
+https://workupload.com/file/Z6mGSgx3Ceu<br> 
 <pre>
 Add config.ini parameter crf to improve the quality of video in javplayer <strong>safe mode</strong>.
 The default value is 22, reduce this value will improve the quality, please refer to ffmpeg settings for details.
