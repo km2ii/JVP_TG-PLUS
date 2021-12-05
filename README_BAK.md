@@ -1,8 +1,7 @@
 # JP109A_TG-PLUS
 ![](assets/logo960.png) <BR>
-<pre><strong>Welcome back to the original author. As an expansion mode, this mod completes its mission. <BR>
-Please follow the original author's tweet to welcome the new version.<BR></pre>
-<pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR></pre>
+
+   <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR></pre>
 Do not use it for any commercial purposes.</strong><BR></pre>
    This is a tutorial to install and use the enhanced mod for javplayer 109a, enhance the effect after removing mosaic.<BR>
 This mod was created by the discord community kmkii#8701.<BR>
