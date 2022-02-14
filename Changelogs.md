@@ -1,7 +1,7 @@
 # JP109A_TG-PLUS
 ![](assets/logo960.png) <BR>
 
-   <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR></pre>
+   <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR>
 Do not use it for any commercial purposes.</strong><BR></pre>
    This is a tutorial to install and use the enhanced mod for javplayer 109a, enhance the effect after removing mosaic.<BR>
 This mod was created by the discord community kmkii#8701.<BR>
@@ -21,8 +21,24 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
    Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
 5. For some details, please refer to the old documentation. 
 </pre>
-## UPDATE.
-### <strong>TG-Plus for JP_109a v0.1.10.24 </strong> (554.47 MB)
+## UPDATE
+### <strong>TG-Plus for JVP_1.11 v0.2.02.14 </strong> (543.61 MB)
+https://workupload.com/file/ZPPeNw3Ay72 (passwd:km)
+<pre>
+Update Notes：
+
+1. Adapted to version JVP 1.11.
+2. Open time limit to December 2022.
+3. Fix the bug of time.log.
+4. Fix the group bug of denoise.
+
+ *Rename orginal TG directory to TG.BAK.
+ *Unzip zipfile to JavPlayer_111/TG/ directory.
+ *Note mixing the mod with the official version sra mode may cause unexpected errors.
+</pre>
+
+## History Changelogs.
+#### 1.TG-Plus for JP_109a v0.1.10.24 (554.47 MB)
 https://workupload.com/file/b6YxXXz92jy (passwd:km)
 <pre>
 Bug fixes, no new features, no need to re-download if everything is fine in the old version.
@@ -30,15 +46,14 @@ Bug fixes, no new features, no need to re-download if everything is fine in the 
 2. Remove model SE-4X-R1.
 3. Fixed some bugs.
 </pre>
-
-## History Changelogs.
-#### 1.TG-Plus V0.1.08.30 Configuration Tools
+#### 2.TG-Plus V0.1.08.30 Configuration Tools
 <pre>
 1. Add crf parameter to improve the video quality in javplayer in combination with JP_109A_Video_Quality_patch.
 2. Add autoren parameter to auto-rename the generated video files according to config.ini when ConfigTools runs.
 3. Add right-click menu, provide 5 profiles mplus archive, easy to choose in video conversion..
 </pre>
-#### 2.TG-Plus for JP_109a v0.1.08.30b 
+
+#### 3.TG-Plus for JP_109a v0.1.08.30b 
 <pre>
 1. Update the console interface show more information about tasks.
 2. Update model SE-4X-S1, sharper comparison with SE-4X.
@@ -55,7 +70,7 @@ Bug fixes, no new features, no need to re-download if everything is fine in the 
 6. Fixed a few bugs.
 </pre>
 
-#### 3.TG-Plus for JP_109a v0.1.08.20<br>
+#### 4.TG-Plus for JP_109a v0.1.08.20<br>
 <pre>
 <strong>Note. 
 Because updated parameters, the old config.ini will not work need to deleted and re-generated.
@@ -82,7 +97,7 @@ Because updated parameters, the old config.ini will not work need to deleted and
 4.Fixed SE-4X-R1 model.
 </pre>
 
-#### 4.TG-Plus for JP_109a v0.1.08.09
+#### 5.TG-Plus for JP_109a v0.1.08.09
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
 2. Abandoned esrgan and call.py extension mode.
