@@ -10,20 +10,39 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ## Console Interface.
 ![](assets/v.1.10.24.png)<BR>
 ## Configuration Tools.
-![](assets/TG-Plus_V0.1.08.30_Configuration_Tools_2.png)<BR>
+![](assets/ConfigTools_v2.08.10.png)<BR>
+
+## UPDATE
+### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
+https://workupload.com/file/dhckuPUKGvf (passwd:km)
+<pre>
+Update Notes：
+
+1. Add the noise reduction filter option, which can be selected according to the noise intensity.
+2. Add noise reduction filter thread parameter, the default is 3.
+3. Adjust the process to automatically call downscale before using ue model, no need to add it manually.
+4. Add test model TG-LITE1, to be used in the first step.
+5. Modify the structure of the config.ini file and rebuild configtools.exe to fit the changes.
+6. Fixed some bugs.
+
+<b>Note: Because updated parameters, the old config.ini will not work need to deleted and re-generated.</b>
+
+</pre>
+
 ## Installation Instructions:
 <pre>
-1. The runtime environment is cuda11.1 cudnn8.1.1, Please install and configure it.
-2. Unzip zipfile to JavPlayer_109a/TG/ directory.
+1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
+2. Unzip zipfile to JavPlayer_109a/TG/ directory, copy ConfigTools.exe to the same directory as javplayer.exe.
 3. Configuration file Config.ini will auto-generated on first run.
 4. Optional Topaz Video Enhance AI, Use the default installation path to get veai parameters. 
    If installed elsewhere please specify the directory where veai is located in config.ini or use ConfigTools. 
    Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
-5. For some details, please refer to the old documentation. 
 </pre>
-## UPDATE
+
+## History Changelogs.
+
 ### <strong>TG-Plus for JVP_1.11 v0.2.02.26 </strong> (555.38 MB)
-https://workupload.com/file/eu74edfkhS8 (passwd:km)
+~~https://workupload.com/file/eu74edfkhS8~~ (passwd:km)
 <pre>
 Update Notes：
 
@@ -37,9 +56,8 @@ Update Notes：
  *Note the JP_111 is yellowish, not a problem of the mod.
 </pre>
 
-## History Changelogs.
 #### TG-Plus for JVP_1.11 v0.2.02.14 (543.61 MB)
-https://workupload.com/file/ZPPeNw3Ay72 (passwd:km)
+~~https://workupload.com/file/ZPPeNw3Ay72~~ (passwd:km)
 <pre>
 1. Adapted to version JVP 1.11.
 2. Open time limit to December 2022.
@@ -47,7 +65,7 @@ https://workupload.com/file/ZPPeNw3Ay72 (passwd:km)
 4. Fix the group bug of denoise.
 </pre>
 #### 2.TG-Plus for JP_109a v0.1.10.24 (554.47 MB)
-https://workupload.com/file/b6YxXXz92jy (passwd:km)
+~~https://workupload.com/file/b6YxXXz92jy~~ (passwd:km)
 <pre>
 Bug fixes, no new features, no need to re-download if everything is fine in the old version.
 1. Update the console information.
