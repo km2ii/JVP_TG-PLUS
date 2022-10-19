@@ -13,7 +13,7 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ![](assets/ConfigTools_v2.08.10.png)<BR>
 
 ## UPDATE
-### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.20 GB)
+### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
 https://workupload.com/file/xQUqWX7jqFe (passwd:km)
 <pre>
 Update Notes：
