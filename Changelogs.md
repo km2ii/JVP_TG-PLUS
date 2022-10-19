@@ -13,20 +13,19 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ![](assets/ConfigTools_v2.08.10.png)<BR>
 
 ## UPDATE
-### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
-https://workupload.com/file/67VLWndcHQE (passwd:km)
+### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.20 GB)
+https://workupload.com/file/xQUqWX7jqFe (passwd:km)
 <pre>
 Update Notes：
-
-1. Add the noise reduction filter option, which can be selected according to the noise intensity.
-2. Add noise reduction filter thread parameter, the default is 3.
-3. Adjust the process to automatically call downscale before using ue model, no need to add it manually.
-4. Add test model TG-LITE1, to be used in the first step.
-5. Modify the structure of the config.ini file and rebuild configtools.exe to fit the changes.
-6. Fixed some bugs.
-
-<b>Note: Because updated parameters, the old config.ini will not work need to deleted and re-generated.</b>
-
+1. Add basicVSR++ model support, basicVSR-pp as keyword.
+2. Convert offical model to basicVSR-pp-st-8000, basicVSR-pp-af-8000, basicVSR-pp-st-16500, located in the TG-MODEL directory.
+3. Add new model basicVSR-pp-4x-std, basicVSR-pp-8x-std.
+4. Add tecoGAN-da model support (modified from tecogan-pytorch) to provide new model tecoGAN-da-8x-std.
+5. Modify config.ini, add basicvsr++, tecoGAN-da grouping parameter:n-count, offsets parameter:offset_x,offset_y, for SR_offset correction.
+6. Update configtools to adapt the new model and configuration files.
+7. Fixed the bug that configtools could not load the saved profile.
+8. Remove test model TG-LITE1.
+* Updated some examples.
 </pre>
 
 ## Installation Instructions:
@@ -41,11 +40,21 @@ Update Notes：
 
 ## History Changelogs.
 
+### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
+~~https://workupload.com/file/67VLWndcHQE~~ (passwd:km)
+<pre>
+1. Add the noise reduction filter option, which can be selected according to the noise intensity.
+2. Add noise reduction filter thread parameter, the default is 3.
+3. Adjust the process to automatically call downscale before using ue model, no need to add it manually.
+4. Add test model TG-LITE1, to be used in the first step.
+5. Modify the structure of the config.ini file and rebuild configtools.exe to fit the changes.
+6. Fixed some bugs.
+<b>Note: Because updated parameters, the old config.ini will not work need to deleted and re-generated.</b>
+</pre>
+
 ### <strong>TG-Plus for JVP_1.11 v0.2.02.26 </strong> (555.38 MB)
 ~~https://workupload.com/file/eu74edfkhS8~~ (passwd:km)
 <pre>
-Update Notes：
-
 1. Update model SE-4X-S2, less noise compared to SE-4X-S1.
    examples/SE-4X-S1_S2_diff.jpg
 2. Update ConfigTools adapted to model SE-4X-S2. 
