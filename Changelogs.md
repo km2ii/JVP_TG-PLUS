@@ -13,6 +13,16 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ![](assets/ConfigTools_v2.08.10.png)<BR>
 
 ## UPDATE
+### v0.2.10.20_patcher
+[https://workupload.com/file/49E7xDvQsKh](https://workupload.com/file/PTLLPSfc5Bu) (passwd:km)
+<pre>
+Update Notes：
+Overwrite the source files in the TG/TGMAIN, backup first.
+1. Fix the output error of tecogan-da.
+2. Fix the output of veai jpg format.
+* ...
+</pre>
+
 ### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
 https://workupload.com/file/xQUqWX7jqFe (passwd:km)
 <pre>
