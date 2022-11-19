@@ -14,7 +14,7 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 
 ## UPDATE
 ### v0.2.10.20_patcher
-[https://workupload.com/file/49E7xDvQsKh](https://workupload.com/file/PTLLPSfc5Bu) (passwd:km)
+https://workupload.com/file/dNp7Mr4k4XG (passwd:km)
 <pre>
 Update Notes：
 Overwrite the source files in the TG/TGMAIN, backup first.
