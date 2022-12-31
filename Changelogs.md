@@ -13,29 +13,12 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ![](assets/ConfigTools_v2.08.10.png)<BR>
 ## NOTE: After January 1, 2023, all v0.2 versions will not be available.
 ## UPDATE
-### v0.2.10.20_patcher
-~~https://workupload.com/file/y9kBca9BFTL~~ (passwd:km)
+### <strong>TG-Plus for JVP_1.09a-1.12b v0.3.01.01 </strong> (2.35 GB)
+https://workupload.com/file/2AXvydACWsN (passwd:km)
 <pre>
 Update Notes：
-Overwrite the source files in the TG/TGMAIN, backup first.
-1. Fix the output error of tecogan-da.
-2. Fix the output of veai jpg format.
-3. Modify ConfigTools n-count minimum to 10.
-</pre>
-
-### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
-~~https://workupload.com/file/xQUqWX7jqFe~~ (passwd:km)
-<pre>
-Update Notes：
-1. Add basicVSR++ model support, basicVSR-pp as keyword.
-2. Convert offical model to basicVSR-pp-st-8000, basicVSR-pp-af-8000, basicVSR-pp-st-16500, located in the TG-MODEL directory.
-3. Add new model basicVSR-pp-4x-std, basicVSR-pp-8x-std.
-4. Add tecoGAN-da model support (modified from tecogan-pytorch) to provide new model tecoGAN-da-8x-std.
-5. Modify config.ini, add basicvsr++, tecoGAN-da grouping parameter:n-count, offsets parameter:offset_x,offset_y, for SR_offset correction.
-6. Update configtools to adapt the new model and configuration files.
-7. Fixed the bug that configtools could not load the saved profile.
-8. Remove test model TG-LITE1.
-* Updated some examples.
+1. Use rec_format to name output video files in 112b.
+2. Fixed some bugs with non-veai environments and warm-up variables.
 </pre>
 
 ## Installation Instructions:
@@ -50,8 +33,27 @@ Update Notes：
 
 ## History Changelogs.
 
+### v0.2.10.20_patcher
+<pre>
+1. Fix the output error of tecogan-da.
+2. Fix the output of veai jpg format.
+3. Modify ConfigTools n-count minimum to 10.
+</pre>
+
+### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
+<pre>
+1. Add basicVSR++ model support, basicVSR-pp as keyword.
+2. Convert offical model to basicVSR-pp-st-8000, basicVSR-pp-af-8000, basicVSR-pp-st-16500, located in the TG-MODEL directory.
+3. Add new model basicVSR-pp-4x-std, basicVSR-pp-8x-std.
+4. Add tecoGAN-da model support (modified from tecogan-pytorch) to provide new model tecoGAN-da-8x-std.
+5. Modify config.ini, add basicvsr++, tecoGAN-da grouping parameter:n-count, offsets parameter:offset_x,offset_y, for SR_offset correction.
+6. Update configtools to adapt the new model and configuration files.
+7. Fixed the bug that configtools could not load the saved profile.
+8. Remove test model TG-LITE1.
+* Updated some examples.
+</pre>
+
 ### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
-~~https://workupload.com/file/67VLWndcHQE~~ (passwd:km)
 <pre>
 1. Add the noise reduction filter option, which can be selected according to the noise intensity.
 2. Add noise reduction filter thread parameter, the default is 3.
@@ -63,7 +65,6 @@ Update Notes：
 </pre>
 
 ### <strong>TG-Plus for JVP_1.11 v0.2.02.26 </strong> (555.38 MB)
-~~https://workupload.com/file/eu74edfkhS8~~ (passwd:km)
 <pre>
 1. Update model SE-4X-S2, less noise compared to SE-4X-S1.
    examples/SE-4X-S1_S2_diff.jpg
@@ -76,7 +77,6 @@ Update Notes：
 </pre>
 
 #### TG-Plus for JVP_1.11 v0.2.02.14 (543.61 MB)
-~~https://workupload.com/file/ZPPeNw3Ay72~~ (passwd:km)
 <pre>
 1. Adapted to version JVP 1.11.
 2. Open time limit to December 2022.
@@ -84,7 +84,6 @@ Update Notes：
 4. Fix the group bug of denoise.
 </pre>
 #### 2.TG-Plus for JP_109a v0.1.10.24 (554.47 MB)
-~~https://workupload.com/file/b6YxXXz92jy~~ (passwd:km)
 <pre>
 Bug fixes, no new features, no need to re-download if everything is fine in the old version.
 1. Update the console information.
