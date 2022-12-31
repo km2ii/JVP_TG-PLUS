@@ -11,10 +11,10 @@ If you can run the original javplayer, the mod should be easy to run as well.<BR
 ![](assets/v.1.10.24.png)<BR>
 ## Configuration Tools.
 ![](assets/ConfigTools_v2.08.10.png)<BR>
-
+## NOTE: After January 1, 2023, all v0.2 versions will not be available.
 ## UPDATE
 ### v0.2.10.20_patcher
-https://workupload.com/file/y9kBca9BFTL (passwd:km)
+~~https://workupload.com/file/y9kBca9BFTL~~ (passwd:km)
 <pre>
 Update Notes：
 Overwrite the source files in the TG/TGMAIN, backup first.
@@ -24,7 +24,7 @@ Overwrite the source files in the TG/TGMAIN, backup first.
 </pre>
 
 ### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
-https://workupload.com/file/xQUqWX7jqFe (passwd:km)
+~~https://workupload.com/file/xQUqWX7jqFe~~ (passwd:km)
 <pre>
 Update Notes：
 1. Add basicVSR++ model support, basicVSR-pp as keyword.
