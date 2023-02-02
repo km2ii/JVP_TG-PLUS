@@ -1,5 +1,5 @@
 # JVP_TG-PLUS
-This is a tutorial to install and use the enhanced mod for javplayer 109a, enhance the effect after removing mosaic.<BR>
+This is a tutorial to install and use the enhanced mod for javplayer, enhance the effect after removing mosaic.<BR>
 This mod was created by the discord community kmkii#8701.<BR>
 If you can run the original javplayer, the mod should be easy to run as well. <BR>
 
