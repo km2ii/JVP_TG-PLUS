@@ -11,7 +11,7 @@ If you can run the original javplayer, the mod should be easy to run as well. <B
 </pre>
 ## UPDATE
 ### 1.<strong>TG-Plus for JVP_1.12b v0.3.02.02 </strong> (2.77 GB)
-https://workupload.com/archive/BeD8UHtm (passwd:km)
+soon...
 <pre>
 Update Notes:
 1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
