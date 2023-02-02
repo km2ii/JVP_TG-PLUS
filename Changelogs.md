@@ -1,19 +1,27 @@
-# JP109A_TG-PLUS
+# JVP_TG-PLUS
+This is a tutorial to install and use the enhanced mod for javplayer 109a, enhance the effect after removing mosaic.<BR>
+This mod was created by the discord community kmkii#8701.<BR>
+If you can run the original javplayer, the mod should be easy to run as well. <BR>
+
 ![](assets/logo960.png) <BR>
 
-   <pre><strong>I state this mod is completely free. Just for learning and communication purposes only.<BR>
-Do not use it for any commercial purposes.</strong><BR></pre>
-   This is a tutorial to install and use the enhanced mod for javplayer 109a, enhance the effect after removing mosaic.<BR>
-This mod was created by the discord community kmkii#8701.<BR>
-If you can run the original javplayer, the mod should be easy to run as well.<BR>
-
-## Console Interface.
-![](assets/v.1.10.24.png)<BR>
-## Configuration Tools.
-![](assets/ConfigTools_v2.08.10.png)<BR>
-## NOTE: After January 1, 2023, all v0.2 versions will not be available.
+<pre>
+<b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
+<b>      2.V.0.3.02.02 only works on JVP_112b.</b>
+</pre>
 ## UPDATE
-### <strong>TG-Plus for JVP_1.09a-1.12b v0.3.01.01 </strong> (2.35 GB)
+### 1.<strong>TG-Plus for JVP_1.12b v0.3.02.02 </strong> (2.77 GB)
+https://workupload.com/archive/BeD8UHtm (passwd:km)
+<pre>
+Update Notes:
+1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
+2. Update the 8X test model.
+   tecogan-da-8x-std-ep1, sharper compared to std.
+   basicvsr-pp-8x-std-ep1, more realistic but more noise.
+<strong>**Note: 
+  V.0.3.02.02 only works on JVP_112b, other versions are not available.</strong>
+</pre>
+### 2.<strong>TG-Plus for JVP_1.09a-1.12b v0.3.01.01 </strong> (2.35 GB)
 https://workupload.com/file/2AXvydACWsN (passwd:km)
 <pre>
 Update Notes：
@@ -31,16 +39,17 @@ Update Notes：
    Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
 </pre>
 
-## History Changelogs.
+<details>
+<summary><b>History Changelogs.</b></summary>
 
-### v0.2.10.20_patcher
+#### v0.2.10.20_patcher
 <pre>
 1. Fix the output error of tecogan-da.
 2. Fix the output of veai jpg format.
 3. Modify ConfigTools n-count minimum to 10.
 </pre>
 
-### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
+#### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
 <pre>
 1. Add basicVSR++ model support, basicVSR-pp as keyword.
 2. Convert offical model to basicVSR-pp-st-8000, basicVSR-pp-af-8000, basicVSR-pp-st-16500, located in the TG-MODEL directory.
@@ -53,7 +62,7 @@ Update Notes：
 * Updated some examples.
 </pre>
 
-### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
+#### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
 <pre>
 1. Add the noise reduction filter option, which can be selected according to the noise intensity.
 2. Add noise reduction filter thread parameter, the default is 3.
@@ -64,7 +73,7 @@ Update Notes：
 <b>Note: Because updated parameters, the old config.ini will not work need to deleted and re-generated.</b>
 </pre>
 
-### <strong>TG-Plus for JVP_1.11 v0.2.02.26 </strong> (555.38 MB)
+#### <strong>TG-Plus for JVP_1.11 v0.2.02.26 </strong> (555.38 MB)
 <pre>
 1. Update model SE-4X-S2, less noise compared to SE-4X-S1.
    examples/SE-4X-S1_S2_diff.jpg
@@ -169,8 +178,11 @@ Because updated parameters, the old config.ini will not work need to deleted and
 9. Fix some bugs, rearranged the output information.
 10. Optimize package remove some unused libraries.
 </pre>
+</details>
 
-### Additional tools.
+<details>
+<summary><b>Additional.</b></summary>
+
 #### JP_109A Video Quality Patch (5.63 MB)<br>
 https://workupload.com/file/Z6mGSgx3Ceu<br> 
 <pre>
@@ -183,14 +195,15 @@ Usage:
 3. This tool can be used to add a watermark to the generated video, put watermark image logo.png into the TG directory.
    Watermark image will be randomly added to top left or bottom right corner of the video.
 </pre>
-## Others.
+#### Others.
 1. If encounter Gpu issues, unzip CUDA_Dlls.rar (402.27 MB) to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
 2. IF you use 3000 series also need dlls_3.rar (331.79 MB)<BR>
 https://workupload.com/file/M69AEP26uXA <BR>
 3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
-
+</pre>
+</details>
 
 <pre><strong>Please note that there are people faking author to sell old version on youtube and gumroad, 
 Beware of being cheated!!!</strong></pre>
