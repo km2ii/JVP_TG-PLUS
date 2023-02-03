@@ -10,7 +10,7 @@ If you can run the original javplayer, the mod should be easy to run as well. <B
 <b>      2.V.0.3.02.02 only works on JVP_112b.</b>
 </pre>
 ## UPDATE
-### 1.<strong>[TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/jxU4HGyx)</strong> (2.77 GB) (passwd:km)
+### 1.<strong>[TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/jxU4HGyx)</strong> (2.57 GB) (passwd:km)
 <pre>
 Update Notes:
 1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
@@ -180,26 +180,14 @@ Because updated parameters, the old config.ini will not work need to deleted and
 
 <details>
 <summary><b>Additional.</b></summary>
-
-#### JP_109A Video Quality Patch (5.63 MB)<br>
-https://workupload.com/file/Z6mGSgx3Ceu<br> 
-<pre>
-Add config.ini parameter crf to improve the quality of video in javplayer <strong>safe mode</strong>.
-The default value is 22, reduce this value will improve the quality, please refer to ffmpeg settings for details.
-
-Usage:
-1. Rename ffmpeg.exe to ffmpeg1.exe, copy this tool to javplayer home directory.
-2. Modify the TG/config.ini file, add a line crf = 22 in [others] parts, no modification will use the default value 22.
-3. This tool can be used to add a watermark to the generated video, put watermark image logo.png into the TG directory.
-   Watermark image will be randomly added to top left or bottom right corner of the video.
-</pre>
-#### Others.
 1. If encounter Gpu issues, unzip CUDA_Dlls.rar (402.27 MB) to tgmain directory.<BR>
 https://workupload.com/file/2mtvdPw3v6B <BR>
 2. IF you use 3000 series also need dlls_3.rar (331.79 MB)<BR>
 https://workupload.com/file/M69AEP26uXA <BR>
 3. Javplayer_watermark_patch 102-109a (6.06 MB)<BR>
 https://workupload.com/file/zWdsxcGAYtx<BR>
+4. 4000 series using tecoGAN-da-8x-std reports nvrtc: error: invalid value for --gpu-architecture (-arch)<BR>
+Reference:https://github.com/km2ii/JVP_TG-PLUS/issues/100
 </pre>
 </details>
 
