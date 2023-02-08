@@ -7,7 +7,8 @@ If you can run the original javplayer, the mod should be easy to run as well. <B
 
 <pre>
 <b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
-<b>      2.V.0.3.02.02 only works on JVP_112b.</b>
+<b>      2.V.0.3.02.02 only works on JVP_112b.</b><BR>
+<b>      3.Mixing the mod with SRA mode may cause unexpected errors.</b>
 </pre>
 ## UPDATE
 ### 1.<strong>[TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/jxU4HGyx)</strong> (2.57 GB) (passwd:km)
