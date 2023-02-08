@@ -11,7 +11,11 @@ If you can run the original javplayer, the mod should be easy to run as well. <B
 <b>      3.Mixing the mod with SRA mode may cause unexpected errors.</b>
 </pre>
 ## UPDATE
-### 1.<strong>[TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/jxU4HGyx)</strong> (2.57 GB) (passwd:km)
+### 1.<strong>[ConfigTools patch 030208](https://workupload.com/file/SHRBvjEbx6N)</strong> (passwd:km)
+<pre>
+ Fix a bug caused by a null veai path.
+</pre>
+### 2.<strong>[TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/jxU4HGyx)</strong> (2.57 GB) (passwd:km)
 <pre>
 Update Notes:
 1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
@@ -21,7 +25,7 @@ Update Notes:
 <strong>**Note: 
   V.0.3.02.02 only works on JVP_112b, other versions are not available.</strong>
 </pre>
-### 2.<strong>[TG-Plus for JVP_1.09a-1.12b v0.3.01.01](https://workupload.com/file/2AXvydACWsN) </strong> (2.35 GB) (passwd:km)
+### 3.<strong>[TG-Plus for JVP_1.09a-1.12b v0.3.01.01](https://workupload.com/file/2AXvydACWsN) </strong> (2.35 GB) (passwd:km)
 <pre>
 Update Notes：
 1. Use rec_format to name output video files in 112b.
