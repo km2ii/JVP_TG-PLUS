@@ -1,14 +1,18 @@
 # JVP_TG-PLUS
-This is a tutorial to install and use the enhanced mod for javplayer, enhance the effect after removing mosaic.<BR>
-This mod was created by the discord community kmkii#8701.<BR>
-If you can run the original javplayer, the mod should be easy to run as well. <BR>
-
+<pre>
+<b>This is a mod for javplayer, enhance the effect after removing mosaic.</b>
+<b>If you can run the original javplayer, the mod should be easy to run as well. </b>
+</pre>
 ![](assets/logo960.png) <BR>
-
 <pre>
 <b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
 <b>      2.V.0.3.02.02 only works on JVP_112b.</b><BR>
-<b>      3.Mixing the mod with SRA mode may cause unexpected errors.</b>
+<b>      3.Mixing the mod with SRA mode may cause unexpected errors.</b><BR>
+<b>      4.Most of files mismatch errors are due to insufficient vrm.</b>
+</pre>
+<pre>
+<b>      * This mod is for learning and communication purposes only, it's completely free.</b>
+<b>        Do not use it for any commercial purposes.</b>
 </pre>
 ## UPDATE
 ### 1.<strong>[ConfigTools patch 030208](https://workupload.com/file/SHRBvjEbx6N)</strong> (passwd:km)
