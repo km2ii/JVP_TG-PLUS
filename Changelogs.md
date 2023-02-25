@@ -15,27 +15,7 @@
 <b>        Do not use it for any commercial purposes.</b>
 </pre>
 ## UPDATE
-### 1.<strong>[ConfigTools patch 030208](https://workupload.com/file/SHRBvjEbx6N)</strong> (passwd:km)
-<pre>
- Fix a bug caused by a null veai path, overwrite the source file in tg/tgmain
-</pre>
-### 2.<strong>[TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/jxU4HGyx)</strong> (2.57 GB) (passwd:km)
-<pre>
-Update Notes:
-1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
-2. Update the 8X test model.
-   tecogan-da-8x-std-ep1, sharper compared to std.
-   basicvsr-pp-8x-std-ep1, more realistic but more noise.
-<strong>**Note: 
-  V.0.3.02.02 only works on JVP_112b, other versions are not available.</strong>
-</pre>
-### 3.<strong>[TG-Plus for JVP_1.09a-1.12b v0.3.01.01](https://workupload.com/file/2AXvydACWsN) </strong> (2.35 GB) (passwd:km)
-<pre>
-Update Notes：
-1. Use rec_format to name output video files in 112b.
-2. Fixed some bugs with non-veai environments and warm-up variables.
-</pre>
-
+not available for now.
 ## Installation Instructions:
 <pre>
 1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
@@ -49,6 +29,29 @@ Update Notes：
 <details>
 <summary><b>History Changelogs.</b></summary>
 
+#### ConfigTools patch 030208
+<pre>
+ Fix a bug caused by a null veai path, overwrite the source file in tg/tgmain
+</pre>
+
+#### TG-Plus for JVP_1.12b v0.3.02.02
+<pre>
+Update Notes:
+1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
+2. Update the 8X test model.
+   tecogan-da-8x-std-ep1, sharper compared to std.
+   basicvsr-pp-8x-std-ep1, more realistic but more noise.
+<strong>**Note: 
+  V.0.3.02.02 only works on JVP_112b, other versions are not available.</strong>
+</pre>
+
+#### TG-Plus for JVP_1.09a-1.12b v0.3.01.01
+<pre>
+Update Notes：
+1. Use rec_format to name output video files in 112b.
+2. Fixed some bugs with non-veai environments and warm-up variables.
+</pre>
+
 #### v0.2.10.20_patcher
 <pre>
 1. Fix the output error of tecogan-da.
@@ -56,7 +59,7 @@ Update Notes：
 3. Modify ConfigTools n-count minimum to 10.
 </pre>
 
-#### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.10.20 </strong> (2.49 GB)
+#### TG-Plus for JVP_1.09a-1.12a v0.2.10.20
 <pre>
 1. Add basicVSR++ model support, basicVSR-pp as keyword.
 2. Convert offical model to basicVSR-pp-st-8000, basicVSR-pp-af-8000, basicVSR-pp-st-16500, located in the TG-MODEL directory.
@@ -69,7 +72,7 @@ Update Notes：
 * Updated some examples.
 </pre>
 
-#### <strong>TG-Plus for JVP_1.09a-1.12a v0.2.08.10 </strong> (2.20 GB)
+#### TG-Plus for JVP_1.09a-1.12a v0.2.08.10
 <pre>
 1. Add the noise reduction filter option, which can be selected according to the noise intensity.
 2. Add noise reduction filter thread parameter, the default is 3.
@@ -80,7 +83,7 @@ Update Notes：
 <b>Note: Because updated parameters, the old config.ini will not work need to deleted and re-generated.</b>
 </pre>
 
-#### <strong>TG-Plus for JVP_1.11 v0.2.02.26 </strong> (555.38 MB)
+#### TG-Plus for JVP_1.11 v0.2.02.26
 <pre>
 1. Update model SE-4X-S2, less noise compared to SE-4X-S1.
    examples/SE-4X-S1_S2_diff.jpg
@@ -92,28 +95,28 @@ Update Notes：
  *Note the JP_111 is yellowish, not a problem of the mod.
 </pre>
 
-#### TG-Plus for JVP_1.11 v0.2.02.14 (543.61 MB)
+#### TG-Plus for JVP_1.11 v0.2.02.14
 <pre>
 1. Adapted to version JVP 1.11.
 2. Open time limit to December 2022.
 3. Fix the bug of time.log.
 4. Fix the group bug of denoise.
 </pre>
-#### 2.TG-Plus for JP_109a v0.1.10.24 (554.47 MB)
+#### TG-Plus for JP_109a v0.1.10.24
 <pre>
 Bug fixes, no new features, no need to re-download if everything is fine in the old version.
 1. Update the console information.
 2. Remove model SE-4X-R1.
 3. Fixed some bugs.
 </pre>
-#### 3.TG-Plus V0.1.08.30 Configuration Tools
+#### TG-Plus V0.1.08.30 Configuration Tools
 <pre>
 1. Add crf parameter to improve the video quality in javplayer in combination with JP_109A_Video_Quality_patch.
 2. Add autoren parameter to auto-rename the generated video files according to config.ini when ConfigTools runs.
 3. Add right-click menu, provide 5 profiles mplus archive, easy to choose in video conversion..
 </pre>
 
-#### 4.TG-Plus for JP_109a v0.1.08.30b 
+#### TG-Plus for JP_109a v0.1.08.30b 
 <pre>
 1. Update the console interface show more information about tasks.
 2. Update model SE-4X-S1, sharper comparison with SE-4X.
@@ -130,7 +133,7 @@ Bug fixes, no new features, no need to re-download if everything is fine in the 
 6. Fixed a few bugs.
 </pre>
 
-#### 5.TG-Plus for JP_109a v0.1.08.20<br>
+#### TG-Plus for JP_109a v0.1.08.20
 <pre>
 <strong>Note. 
 Because updated parameters, the old config.ini will not work need to deleted and re-generated.
@@ -157,7 +160,7 @@ Because updated parameters, the old config.ini will not work need to deleted and
 4.Fixed SE-4X-R1 model.
 </pre>
 
-#### 6.TG-Plus for JP_109a v0.1.08.09
+#### TG-Plus for JP_109a v0.1.08.09
 <pre>
 1. Only mPlus mode is supported now, other modes are discarded.
 2. Abandoned esrgan and call.py extension mode.
