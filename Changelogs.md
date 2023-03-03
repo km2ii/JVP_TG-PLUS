@@ -30,11 +30,6 @@ Re-upload v.3.02.02 before the new version is ready.
 <details>
 <summary><b>History Changelogs.</b></summary>
 
-#### ConfigTools patch 030208
-<pre>
- Fix a bug caused by a null veai path, overwrite the source file in tg/tgmain
-</pre>
-
 #### TG-Plus for JVP_1.12b v0.3.02.02
 <pre>
 Update Notes:
