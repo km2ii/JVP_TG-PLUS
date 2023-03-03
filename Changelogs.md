@@ -15,7 +15,8 @@
 <b>        Do not use it for any commercial purposes.</b>
 </pre>
 ## UPDATE
-not available for now.
+### [TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/ZpXTMGEkzG) (2.59 GB)
+Re-upload v.3.02.02 before the new version is ready.
 ## Installation Instructions:
 <pre>
 1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
