@@ -16,22 +16,33 @@
 <b>        Do not use it for any commercial purposes.</b>
 </pre>
 ## UPDATE
-### [TG-Plus for JVP_1.12b v0.3.02.02](https://workupload.com/archive/ZpXTMGEkzG) (2.59 GB) 
-Re-upload v.3.02.02 before the new version is ready (passwd:km).
-## Installation Instructions:
+### [TG-Plus for JVP_1.12b v0.3.03.20](https://workupload.com/archive/5fwGgDGdgy) (2.63 GB) (passwd:km).
 <pre>
-1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
-2. Unzip zipfile to JavPlayer_109a/TG/ directory, copy ConfigTools.exe to the same directory as javplayer.exe.
-3. Configuration file Config.ini will auto-generated on first run.
-4. Optional Topaz Video Enhance AI, Use the default installation path to get veai parameters. 
-   If installed elsewhere please specify the directory where veai is located in config.ini or use ConfigTools. 
-   Unfortunately the CLI has been removed from 2.4.0. So please wait for the veai update or continue with 2.3.0.
+1.Update basicvsr-pp checkpoint basicvsr-pp-std-8x-ep2, sharper compared to ep1.
+2.Add esrgan test model esrgan-se-2x, for secondary enhancement.
+3.Add Topaz Video AI support. Currently available for Topaz Video Enhance AI 2.3.0 and Topaz Video AI 3.1.X.
+  Need manually set the TVAI_MODEL_DATA_DIR and TVAI_MODEL_DIR environment variables before launching.
+  Default Values:
+  TVAI_MODEL_DATA_DIR :  C:\ProgramData\Topaz Labs LLC\Topaz Video AI
+  TVAI_MODEL_DIR : C:\ProgramData\Topaz Labs LLC\Topaz Video AI\models
+4.Fix basicvsr-pp/tecogan-da align problem, keep offset_x,offset_y parameters.
+5.Fix tecogan-da grouping bug.
+6.Modify basicvsr-pp/tecogan-da model sharp method, change the parameters to use_sharp1,use_sharp2.
+7.Update the model coding, not compatible with the old version.
+8.Added watermark to prevent commercial abuse.
 </pre>
-
+## Installation Instructions:
+1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
+2. Unzip zipfile to JavPlayer_112b/TG/ directory, copy ConfigTools.exe to the same directory as javplayer.exe.
+3. Configuration file Config.ini will auto-generated on first run.
+4. Optional Topaz Video Enhance AI, Topaz Video AI. The current supported version is Topaz Video Enhance AI 2.3.0 and Topaz Video AI 3.1.8.
+   Use the default installation path to get parameters. If installed elsewhere please specify the directory where veai/tvai is located use ConfigTools.
+   Topaz Video AI must manually set the TVAI_MODEL_DATA_DIR and TVAI_MODEL_DIR environment variables before launching.
+![image](https://user-images.githubusercontent.com/55206195/226429114-7a6232a0-45df-43f2-ab74-a31e14a805c9.png)
 <details>
 <summary><b>History Changelogs.</b></summary>
 
-#### TG-Plus for JVP_1.12b v0.3.02.02
+#### [TG-Plus for JVP_1.12b v0.3.02.02 Re-upload](https://workupload.com/archive/ZpXTMGEkzG) (2.59 GB) (passwd:km).
 <pre>
 Update Notes:
 1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
