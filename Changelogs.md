@@ -8,7 +8,8 @@
 <b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
 <b>      2.V.0.3.02.02 only works on JVP_112b.</b><BR>
 <b>      3.Mixing the mod with SRA mode may cause unexpected errors.</b><BR>
-<b>      4.Most of files mismatch errors are due to insufficient vrm.</b>
+<b>      4.Most of files mismatch errors are due to insufficient vrm.</b><BR>
+<b>      4.It is a hobbyist tool NOT a productivity tool.</b>
 </pre>
 <pre>
 <b>      * This mod is for learning and communication purposes only, it's completely free.</b>
