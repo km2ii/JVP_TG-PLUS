@@ -16,6 +16,9 @@
 <b>        Do not use it for any commercial purposes.</b>
 </pre>
 ## UPDATE
+### [v0.3.03.20_patcher](https://workupload.com/file/58BZPZTa5XM) (343.59 KB)
+Fixed an error in the parameter [#125](https://github.com/km2ii/JVP_TG-PLUS/issues/125).
+Overwrite the source files in TG/TGMAIN.
 ### [TG-Plus for JVP_1.12b v0.3.03.20](https://workupload.com/archive/5fwGgDGdgy) (2.63 GB) (passwd:km).
 <pre>
 1.Update basicvsr-pp checkpoint basicvsr-pp-std-8x-ep2, sharper compared to ep1.
@@ -41,7 +44,6 @@
 ![image](https://user-images.githubusercontent.com/55206195/226429114-7a6232a0-45df-43f2-ab74-a31e14a805c9.png)
 <details>
 <summary><b>History Changelogs.</b></summary>
-
 #### [TG-Plus for JVP_1.12b v0.3.02.02 Re-upload](https://workupload.com/archive/ZpXTMGEkzG) (2.59 GB) (passwd:km).
 <pre>
 Update Notes:
