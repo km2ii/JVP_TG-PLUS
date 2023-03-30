@@ -23,7 +23,7 @@ Overwrite the source files in TG/TGMAIN.
 <pre>
 1.Update basicvsr-pp checkpoint basicvsr-pp-std-8x-ep2, sharper compared to ep1.
 2.Add esrgan test model esrgan-se-2x, for secondary enhancement.
-3.Add Topaz Video AI support. Currently available for Topaz Video Enhance AI 2.3.0 and Topaz Video AI 3.1.X.
+3.Add Topaz Video AI support. Currently available for Topaz Video Enhance AI 2.3.0 and Topaz Video AI 3.1.8.
   Need manually set the TVAI_MODEL_DATA_DIR and TVAI_MODEL_DIR environment variables before launching.
   Default Values:
   TVAI_MODEL_DATA_DIR :  C:\ProgramData\Topaz Labs LLC\Topaz Video AI
