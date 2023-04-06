@@ -1,9 +1,13 @@
 # JVP_TG-PLUS
-<pre>
-<b>This is a mod for javplayer, enhance the effect after removing mosaic.</b>
-<b>If you can run the original javplayer, the mod should be easy to run as well. </b>
-</pre>
 ![](assets/logo960.png) <BR>
+## About TG-PLUS
+TG-Plus was started in 2021 by kmkii (km2ii). It's a mod for javplayer, enhanced with the remove mosaic.<br>
+If you can run the original javplayer, this mod should also be easy to run.<br>
+If you are looking to support the development of TG-Plus, feel free to donate using the following button :<br>
+<p align="left"> 
+  <a href="https://ko-fi.com/kmkii" target="https://ko-fi.com/kmkii"> <img src="https://ko-fi.com/img/githubbutton_sm.svg"/> </a> 
+</p>
+
 <pre>
 <b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
 <b>      2.V.0.3.02.02 only works on JVP_112b.</b><BR>
@@ -13,8 +17,9 @@
 </pre>
 <pre>
 <b>      * This mod is for learning and communication purposes only, it's completely free.</b>
-<b>        Do not use it for any commercial purposes.</b>
+<b>        Do not use it for any commercial purposes. </b>
 </pre>
+
 ## UPDATE
 ### [v0.3.03.20_patcher(20230326)](https://workupload.com/file/kPB8x9r4RGR) (532.19 KB)
  Fixed an error in the parameter [#125](https://github.com/km2ii/JVP_TG-PLUS/issues/125).<BR>
@@ -35,6 +40,7 @@
 7.Update the model coding, not compatible with the old version.
 8.Added watermark to prevent commercial abuse.
 </pre>
+
 ## Installation Instructions:
 1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
 2. Unzip zipfile to JavPlayer_112b/TG/ directory, copy ConfigTools.exe to the same directory as javplayer.exe.
@@ -215,7 +221,6 @@ Reference:https://github.com/km2ii/JVP_TG-PLUS/issues/100
 </pre>
 </details>
 
-<pre><strong>Please note that there are people faking author to sell old version on youtube and gumroad, 
-Beware of being cheated!!!</strong></pre>
+<pre><strong>Any support from you will be the driver to move forward.</strong></pre>
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=github.com/km2ii/JP109A_TG-PLUS)
