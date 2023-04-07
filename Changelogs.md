@@ -1,7 +1,7 @@
 # JVP_TG-PLUS
 ![](assets/logo960.png) <BR>
 ## About TG-PLUS
-TG-Plus was started in 2021 by kmkii (km2ii). It's a mod for javplayer, enhanced with the remove mosaic.<br>
+TG-Plus was started in 2020 by kmkii (km2ii). It's a mod for javplayer, enhanced with the remove mosaic.<br>
 If you can run the original javplayer, this mod should also be easy to run.<br>
 If you are looking to support the development of TG-Plus, feel free to donate using the following button :<br>
 <p align="left"> 
