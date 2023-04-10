@@ -21,10 +21,11 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 </pre>
 
 ## UPDATE
-### [v0.3.03.20_patcher(20230326)](https://workupload.com/file/kPB8x9r4RGR) (532.19 KB)
+### [v0.3.03.20_patcher(20230410)](https://workupload.com/file/f3sD2JEHZRD) (532.19 KB)
+ Fixed tvai bug, support jpg image format now. [#138](https://github.com/km2ii/JVP_TG-PLUS/issues/138).<BR>
  Fixed an error in the parameter [#125](https://github.com/km2ii/JVP_TG-PLUS/issues/125).<BR>
  Modify tvai detection method to prevent utf-8 errors. [#117](https://github.com/km2ii/JVP_TG-PLUS/issues/117) [#129](https://github.com/km2ii/JVP_TG-PLUS/issues/129).<BR>
- Overwrite the source files in TG/TGMAIN.
+*Overwrite the source files in TG/TGMAIN.*
 ### [TG-Plus for JVP_1.12b v0.3.03.20](https://workupload.com/archive/5fwGgDGdgy) (2.63 GB) (passwd:km).
 <pre>
 1.Update basicvsr-pp checkpoint basicvsr-pp-std-8x-ep2, sharper compared to ep1.
