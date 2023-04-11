@@ -20,7 +20,7 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <b>        Do not use it for any commercial purposes. </b>
 </pre>
 
-<b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful
+<b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful.
 
 ## UPDATE
 ### [v0.3.03.20_patcher(20230410)](https://workupload.com/file/f3sD2JEHZRD) (532.19 KB)
