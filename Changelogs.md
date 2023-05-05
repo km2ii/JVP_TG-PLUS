@@ -23,13 +23,13 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful.
 
 ## UPDATE
-### [v.03.03.20.wiki&esr.ep.preview](https://workupload.com/file/npAXW6t6Hdz) (4.77 MB)
+### [v.03.03.20a_patcher(20230506)](https://workupload.com/file/R6jHamWhWwN) (137.25 MB) (passwd:km).
+ <pre>
+ 1.Update esrgan test model esrgan-se-2x-std-ep1/ep2, for secondary enhancement.
+ 2.Disabled watermark until new version is released.
+ *Overwrite .pyd file in TG/TGMAIN, copy .pth files to TG/TG-MODEL.*
+</pre>
 
-### [v0.3.03.20_patcher(20230410)](https://workupload.com/file/f3sD2JEHZRD) (532.19 KB)
- Fixed tvai bug, support jpg image format now. [#138](https://github.com/km2ii/JVP_TG-PLUS/issues/138).<BR>
- Fixed an error in the parameter [#125](https://github.com/km2ii/JVP_TG-PLUS/issues/125).<BR>
- Modify tvai detection method to prevent utf-8 errors. [#117](https://github.com/km2ii/JVP_TG-PLUS/issues/117) [#129](https://github.com/km2ii/JVP_TG-PLUS/issues/129).<BR>
-*Overwrite the source files in TG/TGMAIN.*
 ### [TG-Plus for JVP_1.12b v0.3.03.20](https://workupload.com/archive/5fwGgDGdgy) (2.63 GB) (passwd:km).
 <pre>
 1.Update basicvsr-pp checkpoint basicvsr-pp-std-8x-ep2, sharper compared to ep1.
@@ -57,7 +57,7 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <details>
 <summary><b>History Changelogs.</b></summary>
 
-#### [TG-Plus for JVP_1.12b v0.3.02.02 Re-upload](https://workupload.com/archive/ZpXTMGEkzG) (2.59 GB) (passwd:km).
+#### TG-Plus for JVP_1.12b v0.3.02.02
 <pre>
 Update Notes:
 1. Fix the bug that basicvsr-pp,tecogan-da run in the second stage.
