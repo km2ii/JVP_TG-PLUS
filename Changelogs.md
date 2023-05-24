@@ -10,7 +10,7 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 
 <pre>
 <b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
-<b>      2.V.0.3.02.02 only works on JVP_112b.</b><BR>
+<b>      2.Only works on JVP_112b+.</b><BR>
 <b>      3.Mixing the mod with SRA mode may cause unexpected errors.</b><BR>
 <b>      4.Most of files mismatch errors are due to insufficient vrm.</b><BR>
 <b>      5.It is a hobbyist tool NOT a productivity tool.</b>
@@ -23,6 +23,14 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful.
 
 ## UPDATE
+### [v0.3.03.20_patcher(20230525)](https://workupload.com/file/LN99kfY3edt) (460.97 KB) (passwd:km).
+ <pre>
+ v2.0.0 adaptation patch, no new features. 
+ Note before using 0525 patch, need to apply the 0506 patch first.
+ The official rec_name_format seems to have a problem, unavailable for now.
+ *Overwrite .pyd file in TG/TGMAIN.*
+</pre>
+
 ### [v.03.03.20a_patcher(20230506)](https://workupload.com/file/R6jHamWhWwN) (137.25 MB) (passwd:km).
  <pre>
  1.Update esrgan test model esrgan-se-2x-std-ep1/ep2, for secondary enhancement.
