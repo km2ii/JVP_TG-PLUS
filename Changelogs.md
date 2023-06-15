@@ -27,7 +27,6 @@ If you are looking to support the development of TG-Plus, feel free to donate us
  <pre>
  v2.0.0 adaptation patch, no new features. 
  Note before using 0525 patch, need to apply the 0506 patch first.
- The official rec_name_format seems to have a problem, unavailable for now.
  *Overwrite .pyd file in TG/TGMAIN.*
 </pre>
 
