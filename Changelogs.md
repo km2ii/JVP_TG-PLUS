@@ -23,21 +23,42 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful.
 
 ## UPDATE
-### [v0.3.03.20_patcher(20230525)](https://workupload.com/file/LN99kfY3edt) (460.97 KB) (passwd:km).
+### [TG-Plus for JVP_1.12b+2.0 v0.3.07.12](https://workupload.com/archive/PWF54gKKRK) (2.48 GB) (passwd:km).
+<pre>
+1. remove the date limit, remove the watermark, and limit the processing data directories to 30.
+2. update model coding, incompatible with old version.
+3. update bvpp-ep3 model, clearer than ep1 and more realistic than ep2.
+4. improved esrgan processing speed by 40% in multi-threaded and fp16 mode.
+5. new SE model cunet-se, faster than esrgan-se, but it has some problems in testing, please use it with caution.
+6. update environment to cuda 11.8.0 cudnn-8.8.1.3.
+</pre>
+
+## Installation Instructions:
+1. The runtime environment is cuda 11.8.0 cudnn-8.8.1.3, Please install and configure it.
+2. Unzip zipfile to JavPlayer_112b/TG/ directory, copy ConfigTools.exe to the same directory as javplayer.exe.
+3. Configuration file Config.ini will auto-generated on first run.
+4. Optional Topaz Video Enhance AI, Topaz Video AI. The current supported version is Topaz Video Enhance AI 2.3.0 and Topaz Video AI 3.1.8.
+   Use the default installation path to get parameters. If installed elsewhere please specify the directory where veai/tvai is located use ConfigTools.
+   Topaz Video AI must manually set the TVAI_MODEL_DATA_DIR and TVAI_MODEL_DIR environment variables before launching.
+![image](https://user-images.githubusercontent.com/55206195/226429114-7a6232a0-45df-43f2-ab74-a31e14a805c9.png)
+<details>
+<summary><b>History Changelogs.</b></summary>
+
+### v0.3.03.20_patcher(20230525)
  <pre>
  v2.0.0 adaptation patch, no new features. 
  Note before using 0525 patch, need to apply the 0506 patch first.
  *Overwrite .pyd file in TG/TGMAIN.*
 </pre>
 
-### [v.03.03.20a_patcher(20230506)](https://workupload.com/file/R6jHamWhWwN) (137.25 MB) (passwd:km).
+### v.03.03.20a_patcher(20230506)
  <pre>
  1.Update esrgan test model esrgan-se-2x-std-ep1/ep2, for secondary enhancement.
  2.Disabled watermark until new version is released.
  *Overwrite .pyd file in TG/TGMAIN, copy .pth files to TG/TG-MODEL.*
 </pre>
 
-### [TG-Plus for JVP_1.12b v0.3.03.20](https://workupload.com/archive/5fwGgDGdgy) (2.63 GB) (passwd:km).
+### TG-Plus for JVP_1.12b v0.3.03.20
 <pre>
 1.Update basicvsr-pp checkpoint basicvsr-pp-std-8x-ep2, sharper compared to ep1.
 2.Add esrgan test model esrgan-se-2x, for secondary enhancement.
@@ -52,17 +73,6 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 7.Update the model coding, not compatible with the old version.
 8.Added watermark to prevent commercial abuse.
 </pre>
-
-## Installation Instructions:
-1. The runtime environment is cuda 11.3.1 cudnn-11.3 v8.2.1.32, Please install and configure it.
-2. Unzip zipfile to JavPlayer_112b/TG/ directory, copy ConfigTools.exe to the same directory as javplayer.exe.
-3. Configuration file Config.ini will auto-generated on first run.
-4. Optional Topaz Video Enhance AI, Topaz Video AI. The current supported version is Topaz Video Enhance AI 2.3.0 and Topaz Video AI 3.1.8.
-   Use the default installation path to get parameters. If installed elsewhere please specify the directory where veai/tvai is located use ConfigTools.
-   Topaz Video AI must manually set the TVAI_MODEL_DATA_DIR and TVAI_MODEL_DIR environment variables before launching.
-![image](https://user-images.githubusercontent.com/55206195/226429114-7a6232a0-45df-43f2-ab74-a31e14a805c9.png)
-<details>
-<summary><b>History Changelogs.</b></summary>
 
 #### TG-Plus for JVP_1.12b v0.3.02.02
 <pre>
