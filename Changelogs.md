@@ -31,6 +31,7 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 4. fix configtools preset problem.
 5. fix bvpp forced fp16 problem.
 6. provide bvpp two inference methods v1 and v2, v1 is the old mode.
+
 Overwrite the source files in TG/TGMAIN.
 </pre>
 
