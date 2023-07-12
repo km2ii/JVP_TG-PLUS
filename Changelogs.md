@@ -23,6 +23,17 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful.
 
 ## UPDATE
+###  [v.03.07.12_patcher(20230713)](https://workupload.com/file/vGeNHkvvydz). 
+<pre>
+1. adjust data directories limit to 50.
+2. repair esrgan multi-threading problem.
+3. add threading parameters, et:esrgan-se ct:cunet-se, please use configtools to adjust.
+4. fix configtools preset problem.
+5. fix bvpp forced fp16 problem.
+6. provide bvpp two inference methods v1 and v2, v1 is the old mode.
+Overwrite the source files in TG/TGMAIN.
+</pre>
+
 ### [TG-Plus for JVP_1.12b+2.0 v0.3.07.12](https://workupload.com/archive/PWF54gKKRK) (2.48 GB) (passwd:km).
 <pre>
 1. remove the date limit, remove the watermark, and limit the processing data directories to 30.
@@ -31,6 +42,8 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 4. improved esrgan processing speed by 40% in multi-threaded and fp16 mode.
 5. new SE model cunet-se, faster than esrgan-se, but it has some problems in testing, please use it with caution.
 6. update environment to cuda 11.8.0 cudnn-8.8.1.3.
+
+Note that the v.03.07.12 python environment is 3.10.11, which is different from older version and cannot be installed by overwrite.
 </pre>
 
 ## Installation Instructions:
