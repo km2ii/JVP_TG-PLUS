@@ -23,6 +23,10 @@ If you are looking to support the development of TG-Plus, feel free to donate us
 <b>Before using this mod, please read [wiki](https://github.com/km2ii/JVP_TG-PLUS/wiki), it may be helpful.
 
 ## UPDATE
+###  [v.03.07.12_patcher(20230715)](https://workupload.com/file/sKpWU5c86Aq). 
+<pre>
+Addition the Official models , basicVSR-pp-st-8000, basicVSR-pp-af-8000, basicVSR-pp-st-16500, copy to TG-MODEL.
+</pre>
 ###  [v.03.07.12_patcher(20230713)](https://workupload.com/file/vGeNHkvvydz). 
 <pre>
 1. adjust data directories limit to 50.
