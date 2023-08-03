@@ -3,10 +3,8 @@
 ## About TG-PLUS
 TG-Plus was started in 2020 by kmkii (km2ii). It's a mod for javplayer, enhanced with the remove mosaic.<br>
 If you can run the original javplayer, this mod should also be easy to run.<br>
-If you are looking to support the development of TG-Plus, feel free to donate using the following button :<br>
-<p align="left"> 
-  <a href="https://ko-fi.com/kmkii" target="https://ko-fi.com/kmkii"> <img src="https://ko-fi.com/img/githubbutton_sm.svg"/> </a> 
-</p>
+
+# Project terminated, goodbye.
 
 <pre>
 <b>NOTE: 1.After January 1, 2023, all v0.2 versions will not be available.</b><BR>
